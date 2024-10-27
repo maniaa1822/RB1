@@ -137,6 +137,78 @@
         "documentation": {}
     },
     {
+        "label": "symbols",
+        "importPath": "sympy",
+        "description": "sympy",
+        "isExtraImport": true,
+        "detail": "sympy",
+        "documentation": {}
+    },
+    {
+        "label": "Matrix",
+        "importPath": "sympy",
+        "description": "sympy",
+        "isExtraImport": true,
+        "detail": "sympy",
+        "documentation": {}
+    },
+    {
+        "label": "pi",
+        "importPath": "sympy",
+        "description": "sympy",
+        "isExtraImport": true,
+        "detail": "sympy",
+        "documentation": {}
+    },
+    {
+        "label": "cos",
+        "importPath": "sympy",
+        "description": "sympy",
+        "isExtraImport": true,
+        "detail": "sympy",
+        "documentation": {}
+    },
+    {
+        "label": "sin",
+        "importPath": "sympy",
+        "description": "sympy",
+        "isExtraImport": true,
+        "detail": "sympy",
+        "documentation": {}
+    },
+    {
+        "label": "simplify",
+        "importPath": "sympy",
+        "description": "sympy",
+        "isExtraImport": true,
+        "detail": "sympy",
+        "documentation": {}
+    },
+    {
+        "label": "eye",
+        "importPath": "sympy",
+        "description": "sympy",
+        "isExtraImport": true,
+        "detail": "sympy",
+        "documentation": {}
+    },
+    {
+        "label": "sqrt",
+        "importPath": "sympy",
+        "description": "sympy",
+        "isExtraImport": true,
+        "detail": "sympy",
+        "documentation": {}
+    },
+    {
+        "label": "I",
+        "importPath": "sympy",
+        "description": "sympy",
+        "isExtraImport": true,
+        "detail": "sympy",
+        "documentation": {}
+    },
+    {
         "label": "Matrix",
         "importPath": "sympy",
         "description": "sympy",
@@ -328,6 +400,62 @@
         "description": "robotics_lib.geometric",
         "isExtraImport": true,
         "detail": "robotics_lib.geometric",
+        "documentation": {}
+    },
+    {
+        "label": "elem_rot_mat",
+        "importPath": "robotics_lib",
+        "description": "robotics_lib",
+        "isExtraImport": true,
+        "detail": "robotics_lib",
+        "documentation": {}
+    },
+    {
+        "label": "elem_rot_mat_inverse",
+        "importPath": "robotics_lib",
+        "description": "robotics_lib",
+        "isExtraImport": true,
+        "detail": "robotics_lib",
+        "documentation": {}
+    },
+    {
+        "label": "euler_rotation",
+        "importPath": "robotics_lib",
+        "description": "robotics_lib",
+        "isExtraImport": true,
+        "detail": "robotics_lib",
+        "documentation": {}
+    },
+    {
+        "label": "euler_rotation_inverse",
+        "importPath": "robotics_lib",
+        "description": "robotics_lib",
+        "isExtraImport": true,
+        "detail": "robotics_lib",
+        "documentation": {}
+    },
+    {
+        "label": "rpy_rotation",
+        "importPath": "robotics_lib",
+        "description": "robotics_lib",
+        "isExtraImport": true,
+        "detail": "robotics_lib",
+        "documentation": {}
+    },
+    {
+        "label": "angle_axis_to_rot_mat",
+        "importPath": "robotics_lib",
+        "description": "robotics_lib",
+        "isExtraImport": true,
+        "detail": "robotics_lib",
+        "documentation": {}
+    },
+    {
+        "label": "angle_axis_from_rot_mat",
+        "importPath": "robotics_lib",
+        "description": "robotics_lib",
+        "isExtraImport": true,
+        "detail": "robotics_lib",
         "documentation": {}
     },
     {
@@ -818,6 +946,303 @@
         "description": "robotics_lib.examples.example_kinematics",
         "peekOfCode": "torques = np.array(torques)\n# Create plot\nplt.plot(q1_vals, torques[:, 0], label='τ1', linewidth=2)\nplt.plot(q1_vals, torques[:, 1], label='τ2', linewidth=2)\nplt.plot(q1_vals, torques[:, 2], label='τ3', linewidth=2)\nplt.grid(True, alpha=0.3)\nplt.xlabel('Joint angle q1 (rad)', fontsize=12)\nplt.ylabel('Torque (N⋅m)', fontsize=12)\nplt.title('Joint Torques vs q1', fontsize=14, pad=20)\nplt.legend(fontsize=10)",
         "detail": "robotics_lib.examples.example_kinematics",
+        "documentation": {}
+    },
+    {
+        "label": "phi",
+        "kind": 5,
+        "importPath": "robotics_lib.examples.rotation-examples",
+        "description": "robotics_lib.examples.rotation-examples",
+        "peekOfCode": "phi = np.deg2rad(40)\ntheta = np.deg2rad(60)\npsi = np.deg2rad(80)\n# Method 1: Using euler_rotation\nR_zxz = euler_rotation('zxz', [phi, theta, psi])\n# Method 2: Using elementary rotations\nR_check = elem_rot_mat('z', phi) @ elem_rot_mat('x', theta) @ elem_rot_mat('z', psi)\n# Display results\n{\n    'euler_rotation_result': R_zxz,",
+        "detail": "robotics_lib.examples.rotation-examples",
+        "documentation": {}
+    },
+    {
+        "label": "theta",
+        "kind": 5,
+        "importPath": "robotics_lib.examples.rotation-examples",
+        "description": "robotics_lib.examples.rotation-examples",
+        "peekOfCode": "theta = np.deg2rad(60)\npsi = np.deg2rad(80)\n# Method 1: Using euler_rotation\nR_zxz = euler_rotation('zxz', [phi, theta, psi])\n# Method 2: Using elementary rotations\nR_check = elem_rot_mat('z', phi) @ elem_rot_mat('x', theta) @ elem_rot_mat('z', psi)\n# Display results\n{\n    'euler_rotation_result': R_zxz,\n    'elementary_rotations_result': R_check,",
+        "detail": "robotics_lib.examples.rotation-examples",
+        "documentation": {}
+    },
+    {
+        "label": "psi",
+        "kind": 5,
+        "importPath": "robotics_lib.examples.rotation-examples",
+        "description": "robotics_lib.examples.rotation-examples",
+        "peekOfCode": "psi = np.deg2rad(80)\n# Method 1: Using euler_rotation\nR_zxz = euler_rotation('zxz', [phi, theta, psi])\n# Method 2: Using elementary rotations\nR_check = elem_rot_mat('z', phi) @ elem_rot_mat('x', theta) @ elem_rot_mat('z', psi)\n# Display results\n{\n    'euler_rotation_result': R_zxz,\n    'elementary_rotations_result': R_check,\n    'difference': simplify(R_zxz - R_check)  # Should be zero matrix",
+        "detail": "robotics_lib.examples.rotation-examples",
+        "documentation": {}
+    },
+    {
+        "label": "R_zxz",
+        "kind": 5,
+        "importPath": "robotics_lib.examples.rotation-examples",
+        "description": "robotics_lib.examples.rotation-examples",
+        "peekOfCode": "R_zxz = euler_rotation('zxz', [phi, theta, psi])\n# Method 2: Using elementary rotations\nR_check = elem_rot_mat('z', phi) @ elem_rot_mat('x', theta) @ elem_rot_mat('z', psi)\n# Display results\n{\n    'euler_rotation_result': R_zxz,\n    'elementary_rotations_result': R_check,\n    'difference': simplify(R_zxz - R_check)  # Should be zero matrix\n}\n# %%",
+        "detail": "robotics_lib.examples.rotation-examples",
+        "documentation": {}
+    },
+    {
+        "label": "R_check",
+        "kind": 5,
+        "importPath": "robotics_lib.examples.rotation-examples",
+        "description": "robotics_lib.examples.rotation-examples",
+        "peekOfCode": "R_check = elem_rot_mat('z', phi) @ elem_rot_mat('x', theta) @ elem_rot_mat('z', psi)\n# Display results\n{\n    'euler_rotation_result': R_zxz,\n    'elementary_rotations_result': R_check,\n    'difference': simplify(R_zxz - R_check)  # Should be zero matrix\n}\n# %%\n# Inverse computation\nphi_inv, theta_inv, psi_inv = euler_rotation_inverse('zxz', R_zxz, True)  # True for positive solution",
+        "detail": "robotics_lib.examples.rotation-examples",
+        "documentation": {}
+    },
+    {
+        "label": "angles_deg",
+        "kind": 5,
+        "importPath": "robotics_lib.examples.rotation-examples",
+        "description": "robotics_lib.examples.rotation-examples",
+        "peekOfCode": "angles_deg = {\n    'phi_deg': float(phi_inv.evalf()) * 180/pi,\n    'theta_deg': float(theta_inv.evalf()) * 180/pi,\n    'psi_deg': float(psi_inv.evalf()) * 180/pi\n}\nangles_deg\n# %% [markdown]\n# ## 2. RPY Angles (Fixed XYZ)\n# Example of RPY rotation with fixed axes\n# %%",
+        "detail": "robotics_lib.examples.rotation-examples",
+        "documentation": {}
+    },
+    {
+        "label": "psi",
+        "kind": 5,
+        "importPath": "robotics_lib.examples.rotation-examples",
+        "description": "robotics_lib.examples.rotation-examples",
+        "peekOfCode": "psi = np.deg2rad(80)    # ROT X\ntheta = np.deg2rad(60)  # ROT Y\nphi = np.deg2rad(40)    # ROT Z\n# Method 1: Using rpy_rotation\nR_rpy = rpy_rotation('xyz', [psi, theta, phi])\n# Method 2: Using elementary rotations (fixed axes)\nR_check = elem_rot_mat('z', phi) @ elem_rot_mat('y', theta) @ elem_rot_mat('x', psi)\n# Display results\n{\n    'rpy_rotation_result': R_rpy,",
+        "detail": "robotics_lib.examples.rotation-examples",
+        "documentation": {}
+    },
+    {
+        "label": "theta",
+        "kind": 5,
+        "importPath": "robotics_lib.examples.rotation-examples",
+        "description": "robotics_lib.examples.rotation-examples",
+        "peekOfCode": "theta = np.deg2rad(60)  # ROT Y\nphi = np.deg2rad(40)    # ROT Z\n# Method 1: Using rpy_rotation\nR_rpy = rpy_rotation('xyz', [psi, theta, phi])\n# Method 2: Using elementary rotations (fixed axes)\nR_check = elem_rot_mat('z', phi) @ elem_rot_mat('y', theta) @ elem_rot_mat('x', psi)\n# Display results\n{\n    'rpy_rotation_result': R_rpy,\n    'elementary_rotations_result': R_check,",
+        "detail": "robotics_lib.examples.rotation-examples",
+        "documentation": {}
+    },
+    {
+        "label": "phi",
+        "kind": 5,
+        "importPath": "robotics_lib.examples.rotation-examples",
+        "description": "robotics_lib.examples.rotation-examples",
+        "peekOfCode": "phi = np.deg2rad(40)    # ROT Z\n# Method 1: Using rpy_rotation\nR_rpy = rpy_rotation('xyz', [psi, theta, phi])\n# Method 2: Using elementary rotations (fixed axes)\nR_check = elem_rot_mat('z', phi) @ elem_rot_mat('y', theta) @ elem_rot_mat('x', psi)\n# Display results\n{\n    'rpy_rotation_result': R_rpy,\n    'elementary_rotations_result': R_check,\n    'difference': simplify(R_rpy - R_check)  # Should be zero matrix",
+        "detail": "robotics_lib.examples.rotation-examples",
+        "documentation": {}
+    },
+    {
+        "label": "R_rpy",
+        "kind": 5,
+        "importPath": "robotics_lib.examples.rotation-examples",
+        "description": "robotics_lib.examples.rotation-examples",
+        "peekOfCode": "R_rpy = rpy_rotation('xyz', [psi, theta, phi])\n# Method 2: Using elementary rotations (fixed axes)\nR_check = elem_rot_mat('z', phi) @ elem_rot_mat('y', theta) @ elem_rot_mat('x', psi)\n# Display results\n{\n    'rpy_rotation_result': R_rpy,\n    'elementary_rotations_result': R_check,\n    'difference': simplify(R_rpy - R_check)  # Should be zero matrix\n}\n# %%",
+        "detail": "robotics_lib.examples.rotation-examples",
+        "documentation": {}
+    },
+    {
+        "label": "R_check",
+        "kind": 5,
+        "importPath": "robotics_lib.examples.rotation-examples",
+        "description": "robotics_lib.examples.rotation-examples",
+        "peekOfCode": "R_check = elem_rot_mat('z', phi) @ elem_rot_mat('y', theta) @ elem_rot_mat('x', psi)\n# Display results\n{\n    'rpy_rotation_result': R_rpy,\n    'elementary_rotations_result': R_check,\n    'difference': simplify(R_rpy - R_check)  # Should be zero matrix\n}\n# %%\n# Inverse computation for RPY angles\nphi_inv, theta_inv, psi_inv = euler_rotation_inverse('xyz', R_rpy, True)",
+        "detail": "robotics_lib.examples.rotation-examples",
+        "documentation": {}
+    },
+    {
+        "label": "angles_deg",
+        "kind": 5,
+        "importPath": "robotics_lib.examples.rotation-examples",
+        "description": "robotics_lib.examples.rotation-examples",
+        "peekOfCode": "angles_deg = {\n    'phi_deg': float(phi_inv.evalf()) * 180/pi,\n    'theta_deg': float(theta_inv.evalf()) * 180/pi,\n    'psi_deg': float(psi_inv.evalf()) * 180/pi\n}\nangles_deg\n# %% [markdown]\n# ## 3. Angle-Axis Representation\n# Example of angle-axis rotation and conversion\n# %%",
+        "detail": "robotics_lib.examples.rotation-examples",
+        "documentation": {}
+    },
+    {
+        "label": "r",
+        "kind": 5,
+        "importPath": "robotics_lib.examples.rotation-examples",
+        "description": "robotics_lib.examples.rotation-examples",
+        "peekOfCode": "r = Matrix([-1, 1, 1])\n#%% Normalize the axis\nr = r / sqrt(r.dot(r))\n#%%\ntheta = np.deg2rad(65)\ntheta\n#%% Convert to rotation matrix\nR = angle_axis_to_rot_mat(r, theta)\nR\n#%% Convert back to angle-axis",
+        "detail": "robotics_lib.examples.rotation-examples",
+        "documentation": {}
+    },
+    {
+        "label": "r",
+        "kind": 5,
+        "importPath": "robotics_lib.examples.rotation-examples",
+        "description": "robotics_lib.examples.rotation-examples",
+        "peekOfCode": "r = r / sqrt(r.dot(r))\n#%%\ntheta = np.deg2rad(65)\ntheta\n#%% Convert to rotation matrix\nR = angle_axis_to_rot_mat(r, theta)\nR\n#%% Convert back to angle-axis\naxis_recovered, angle_recovered = angle_axis_from_rot_mat(R)\n{",
+        "detail": "robotics_lib.examples.rotation-examples",
+        "documentation": {}
+    },
+    {
+        "label": "theta",
+        "kind": 5,
+        "importPath": "robotics_lib.examples.rotation-examples",
+        "description": "robotics_lib.examples.rotation-examples",
+        "peekOfCode": "theta = np.deg2rad(65)\ntheta\n#%% Convert to rotation matrix\nR = angle_axis_to_rot_mat(r, theta)\nR\n#%% Convert back to angle-axis\naxis_recovered, angle_recovered = angle_axis_from_rot_mat(R)\n{\n    'original_axis': r,\n    'recovered_axis': simplify(axis_recovered),",
+        "detail": "robotics_lib.examples.rotation-examples",
+        "documentation": {}
+    },
+    {
+        "label": "R",
+        "kind": 5,
+        "importPath": "robotics_lib.examples.rotation-examples",
+        "description": "robotics_lib.examples.rotation-examples",
+        "peekOfCode": "R = angle_axis_to_rot_mat(r, theta)\nR\n#%% Convert back to angle-axis\naxis_recovered, angle_recovered = angle_axis_from_rot_mat(R)\n{\n    'original_axis': r,\n    'recovered_axis': simplify(axis_recovered),\n    'original_angle_deg': 65,\n    'recovered_angle_deg': float(angle_recovered.evalf()) * 180/pi\n}",
+        "detail": "robotics_lib.examples.rotation-examples",
+        "documentation": {}
+    },
+    {
+        "label": "R_singular",
+        "kind": 5,
+        "importPath": "robotics_lib.examples.rotation-examples",
+        "description": "robotics_lib.examples.rotation-examples",
+        "peekOfCode": "R_singular = Matrix([\n    [-1, 0, 0],\n    [0, -1/sqrt(2), -1/sqrt(2)],\n    [0, -1/sqrt(2), 1/sqrt(2)]\n])\n# Try to recover angle-axis\naxis_sing, angle_sing = angle_axis_from_rot_mat(R_singular)\n{\n    'singular_axis': simplify(axis_sing),\n    'singular_angle_deg': float(angle_sing.evalf()) * 180/pi",
+        "detail": "robotics_lib.examples.rotation-examples",
+        "documentation": {}
+    },
+    {
+        "label": "alpha_1",
+        "kind": 5,
+        "importPath": "robotics_lib.examples.rotation-examples",
+        "description": "robotics_lib.examples.rotation-examples",
+        "peekOfCode": "alpha_1 = -pi/2  # referred to Z\nalpha_2 = -pi/4  # referred to Y\nalpha_3 = pi/4   # referred to X\n#%% R_X(alpha_3)*R_Y(alpha_2)*R_Z(alpha_1)\nR_ZYX = euler_rotation('xyz', [alpha_3, alpha_2, alpha_1])\n#%% Find eigenvectors and eigenvalues\nM = Matrix(R_ZYX)\neigensystem = M.eigenvects()\n# Find the eigenvector corresponding to eigenvalue 1\ninvariant_axis = None",
+        "detail": "robotics_lib.examples.rotation-examples",
+        "documentation": {}
+    },
+    {
+        "label": "alpha_2",
+        "kind": 5,
+        "importPath": "robotics_lib.examples.rotation-examples",
+        "description": "robotics_lib.examples.rotation-examples",
+        "peekOfCode": "alpha_2 = -pi/4  # referred to Y\nalpha_3 = pi/4   # referred to X\n#%% R_X(alpha_3)*R_Y(alpha_2)*R_Z(alpha_1)\nR_ZYX = euler_rotation('xyz', [alpha_3, alpha_2, alpha_1])\n#%% Find eigenvectors and eigenvalues\nM = Matrix(R_ZYX)\neigensystem = M.eigenvects()\n# Find the eigenvector corresponding to eigenvalue 1\ninvariant_axis = None\nfor eigenval, multiplicity, eigenvects in eigensystem:",
+        "detail": "robotics_lib.examples.rotation-examples",
+        "documentation": {}
+    },
+    {
+        "label": "alpha_3",
+        "kind": 5,
+        "importPath": "robotics_lib.examples.rotation-examples",
+        "description": "robotics_lib.examples.rotation-examples",
+        "peekOfCode": "alpha_3 = pi/4   # referred to X\n#%% R_X(alpha_3)*R_Y(alpha_2)*R_Z(alpha_1)\nR_ZYX = euler_rotation('xyz', [alpha_3, alpha_2, alpha_1])\n#%% Find eigenvectors and eigenvalues\nM = Matrix(R_ZYX)\neigensystem = M.eigenvects()\n# Find the eigenvector corresponding to eigenvalue 1\ninvariant_axis = None\nfor eigenval, multiplicity, eigenvects in eigensystem:\n    if abs(eigenval - 1) < 1e-10:  # Check if eigenvalue is 1",
+        "detail": "robotics_lib.examples.rotation-examples",
+        "documentation": {}
+    },
+    {
+        "label": "R_ZYX",
+        "kind": 5,
+        "importPath": "robotics_lib.examples.rotation-examples",
+        "description": "robotics_lib.examples.rotation-examples",
+        "peekOfCode": "R_ZYX = euler_rotation('xyz', [alpha_3, alpha_2, alpha_1])\n#%% Find eigenvectors and eigenvalues\nM = Matrix(R_ZYX)\neigensystem = M.eigenvects()\n# Find the eigenvector corresponding to eigenvalue 1\ninvariant_axis = None\nfor eigenval, multiplicity, eigenvects in eigensystem:\n    if abs(eigenval - 1) < 1e-10:  # Check if eigenvalue is 1\n        invariant_axis = eigenvects[0]\n        break",
+        "detail": "robotics_lib.examples.rotation-examples",
+        "documentation": {}
+    },
+    {
+        "label": "M",
+        "kind": 5,
+        "importPath": "robotics_lib.examples.rotation-examples",
+        "description": "robotics_lib.examples.rotation-examples",
+        "peekOfCode": "M = Matrix(R_ZYX)\neigensystem = M.eigenvects()\n# Find the eigenvector corresponding to eigenvalue 1\ninvariant_axis = None\nfor eigenval, multiplicity, eigenvects in eigensystem:\n    if abs(eigenval - 1) < 1e-10:  # Check if eigenvalue is 1\n        invariant_axis = eigenvects[0]\n        break\n# Normalize the invariant axis\nif invariant_axis is not None:",
+        "detail": "robotics_lib.examples.rotation-examples",
+        "documentation": {}
+    },
+    {
+        "label": "eigensystem",
+        "kind": 5,
+        "importPath": "robotics_lib.examples.rotation-examples",
+        "description": "robotics_lib.examples.rotation-examples",
+        "peekOfCode": "eigensystem = M.eigenvects()\n# Find the eigenvector corresponding to eigenvalue 1\ninvariant_axis = None\nfor eigenval, multiplicity, eigenvects in eigensystem:\n    if abs(eigenval - 1) < 1e-10:  # Check if eigenvalue is 1\n        invariant_axis = eigenvects[0]\n        break\n# Normalize the invariant axis\nif invariant_axis is not None:\n    invariant_axis = invariant_axis / sqrt(invariant_axis.dot(invariant_axis))",
+        "detail": "robotics_lib.examples.rotation-examples",
+        "documentation": {}
+    },
+    {
+        "label": "invariant_axis",
+        "kind": 5,
+        "importPath": "robotics_lib.examples.rotation-examples",
+        "description": "robotics_lib.examples.rotation-examples",
+        "peekOfCode": "invariant_axis = None\nfor eigenval, multiplicity, eigenvects in eigensystem:\n    if abs(eigenval - 1) < 1e-10:  # Check if eigenvalue is 1\n        invariant_axis = eigenvects[0]\n        break\n# Normalize the invariant axis\nif invariant_axis is not None:\n    invariant_axis = invariant_axis / sqrt(invariant_axis.dot(invariant_axis))\n{\n    'rotation_matrix': R_ZYX,",
+        "detail": "robotics_lib.examples.rotation-examples",
+        "documentation": {}
+    },
+    {
+        "label": "alpha_1",
+        "kind": 5,
+        "importPath": "robotics_lib.examples.rotation-examples",
+        "description": "robotics_lib.examples.rotation-examples",
+        "peekOfCode": "alpha_1 = -pi/2  # Z rotation\nalpha_2 = -pi/4  # Y rotation\nalpha_3 = pi/4   # X rotation\n# Create rotation matrix\nR_ZYX = euler_rotation('xyz', [alpha_3, alpha_2, alpha_1])\n# Convert to various representations\n# 1. Back to Euler angles\neuler_angles = euler_rotation_inverse('xyz', R_ZYX, True)\n# 2. To angle-axis representation\naxis, angle = angle_axis_from_rot_mat(R_ZYX)",
+        "detail": "robotics_lib.examples.rotation-examples",
+        "documentation": {}
+    },
+    {
+        "label": "alpha_2",
+        "kind": 5,
+        "importPath": "robotics_lib.examples.rotation-examples",
+        "description": "robotics_lib.examples.rotation-examples",
+        "peekOfCode": "alpha_2 = -pi/4  # Y rotation\nalpha_3 = pi/4   # X rotation\n# Create rotation matrix\nR_ZYX = euler_rotation('xyz', [alpha_3, alpha_2, alpha_1])\n# Convert to various representations\n# 1. Back to Euler angles\neuler_angles = euler_rotation_inverse('xyz', R_ZYX, True)\n# 2. To angle-axis representation\naxis, angle = angle_axis_from_rot_mat(R_ZYX)\n# 3. Extract elementary rotations",
+        "detail": "robotics_lib.examples.rotation-examples",
+        "documentation": {}
+    },
+    {
+        "label": "alpha_3",
+        "kind": 5,
+        "importPath": "robotics_lib.examples.rotation-examples",
+        "description": "robotics_lib.examples.rotation-examples",
+        "peekOfCode": "alpha_3 = pi/4   # X rotation\n# Create rotation matrix\nR_ZYX = euler_rotation('xyz', [alpha_3, alpha_2, alpha_1])\n# Convert to various representations\n# 1. Back to Euler angles\neuler_angles = euler_rotation_inverse('xyz', R_ZYX, True)\n# 2. To angle-axis representation\naxis, angle = angle_axis_from_rot_mat(R_ZYX)\n# 3. Extract elementary rotations\nRz = elem_rot_mat_inverse('z', R_ZYX)",
+        "detail": "robotics_lib.examples.rotation-examples",
+        "documentation": {}
+    },
+    {
+        "label": "R_ZYX",
+        "kind": 5,
+        "importPath": "robotics_lib.examples.rotation-examples",
+        "description": "robotics_lib.examples.rotation-examples",
+        "peekOfCode": "R_ZYX = euler_rotation('xyz', [alpha_3, alpha_2, alpha_1])\n# Convert to various representations\n# 1. Back to Euler angles\neuler_angles = euler_rotation_inverse('xyz', R_ZYX, True)\n# 2. To angle-axis representation\naxis, angle = angle_axis_from_rot_mat(R_ZYX)\n# 3. Extract elementary rotations\nRz = elem_rot_mat_inverse('z', R_ZYX)\nRy = elem_rot_mat_inverse('y', elem_rot_mat('z', -Rz) @ R_ZYX)\nRx = elem_rot_mat_inverse('x', elem_rot_mat('y', -Ry) @ elem_rot_mat('z', -Rz) @ R_ZYX)",
+        "detail": "robotics_lib.examples.rotation-examples",
+        "documentation": {}
+    },
+    {
+        "label": "euler_angles",
+        "kind": 5,
+        "importPath": "robotics_lib.examples.rotation-examples",
+        "description": "robotics_lib.examples.rotation-examples",
+        "peekOfCode": "euler_angles = euler_rotation_inverse('xyz', R_ZYX, True)\n# 2. To angle-axis representation\naxis, angle = angle_axis_from_rot_mat(R_ZYX)\n# 3. Extract elementary rotations\nRz = elem_rot_mat_inverse('z', R_ZYX)\nRy = elem_rot_mat_inverse('y', elem_rot_mat('z', -Rz) @ R_ZYX)\nRx = elem_rot_mat_inverse('x', elem_rot_mat('y', -Ry) @ elem_rot_mat('z', -Rz) @ R_ZYX)\nresults = {\n    'original_matrix': simplify(R_ZYX),\n    'euler_angles': [float(angle.evalf()) for angle in euler_angles],",
+        "detail": "robotics_lib.examples.rotation-examples",
+        "documentation": {}
+    },
+    {
+        "label": "Rz",
+        "kind": 5,
+        "importPath": "robotics_lib.examples.rotation-examples",
+        "description": "robotics_lib.examples.rotation-examples",
+        "peekOfCode": "Rz = elem_rot_mat_inverse('z', R_ZYX)\nRy = elem_rot_mat_inverse('y', elem_rot_mat('z', -Rz) @ R_ZYX)\nRx = elem_rot_mat_inverse('x', elem_rot_mat('y', -Ry) @ elem_rot_mat('z', -Rz) @ R_ZYX)\nresults = {\n    'original_matrix': simplify(R_ZYX),\n    'euler_angles': [float(angle.evalf()) for angle in euler_angles],\n    'angle_axis': {\n        'axis': simplify(axis),\n        'angle': float(angle.evalf())\n    },",
+        "detail": "robotics_lib.examples.rotation-examples",
+        "documentation": {}
+    },
+    {
+        "label": "Ry",
+        "kind": 5,
+        "importPath": "robotics_lib.examples.rotation-examples",
+        "description": "robotics_lib.examples.rotation-examples",
+        "peekOfCode": "Ry = elem_rot_mat_inverse('y', elem_rot_mat('z', -Rz) @ R_ZYX)\nRx = elem_rot_mat_inverse('x', elem_rot_mat('y', -Ry) @ elem_rot_mat('z', -Rz) @ R_ZYX)\nresults = {\n    'original_matrix': simplify(R_ZYX),\n    'euler_angles': [float(angle.evalf()) for angle in euler_angles],\n    'angle_axis': {\n        'axis': simplify(axis),\n        'angle': float(angle.evalf())\n    },\n    'elementary_angles': {",
+        "detail": "robotics_lib.examples.rotation-examples",
+        "documentation": {}
+    },
+    {
+        "label": "Rx",
+        "kind": 5,
+        "importPath": "robotics_lib.examples.rotation-examples",
+        "description": "robotics_lib.examples.rotation-examples",
+        "peekOfCode": "Rx = elem_rot_mat_inverse('x', elem_rot_mat('y', -Ry) @ elem_rot_mat('z', -Rz) @ R_ZYX)\nresults = {\n    'original_matrix': simplify(R_ZYX),\n    'euler_angles': [float(angle.evalf()) for angle in euler_angles],\n    'angle_axis': {\n        'axis': simplify(axis),\n        'angle': float(angle.evalf())\n    },\n    'elementary_angles': {\n        'z_angle': float(Rz.evalf()),",
+        "detail": "robotics_lib.examples.rotation-examples",
+        "documentation": {}
+    },
+    {
+        "label": "results",
+        "kind": 5,
+        "importPath": "robotics_lib.examples.rotation-examples",
+        "description": "robotics_lib.examples.rotation-examples",
+        "peekOfCode": "results = {\n    'original_matrix': simplify(R_ZYX),\n    'euler_angles': [float(angle.evalf()) for angle in euler_angles],\n    'angle_axis': {\n        'axis': simplify(axis),\n        'angle': float(angle.evalf())\n    },\n    'elementary_angles': {\n        'z_angle': float(Rz.evalf()),\n        'y_angle': float(Ry.evalf()),",
+        "detail": "robotics_lib.examples.rotation-examples",
         "documentation": {}
     },
     {
