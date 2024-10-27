@@ -153,6 +153,14 @@
         "documentation": {}
     },
     {
+        "label": "solve",
+        "importPath": "sympy",
+        "description": "sympy",
+        "isExtraImport": true,
+        "detail": "sympy",
+        "documentation": {}
+    },
+    {
         "label": "symbols",
         "importPath": "sympy",
         "description": "sympy",
@@ -433,6 +441,62 @@
         "documentation": {}
     },
     {
+        "label": "zeros",
+        "importPath": "sympy",
+        "description": "sympy",
+        "isExtraImport": true,
+        "detail": "sympy",
+        "documentation": {}
+    },
+    {
+        "label": "ones",
+        "importPath": "sympy",
+        "description": "sympy",
+        "isExtraImport": true,
+        "detail": "sympy",
+        "documentation": {}
+    },
+    {
+        "label": "eye",
+        "importPath": "sympy",
+        "description": "sympy",
+        "isExtraImport": true,
+        "detail": "sympy",
+        "documentation": {}
+    },
+    {
+        "label": "Expr",
+        "importPath": "sympy",
+        "description": "sympy",
+        "isExtraImport": true,
+        "detail": "sympy",
+        "documentation": {}
+    },
+    {
+        "label": "Symbol",
+        "importPath": "sympy",
+        "description": "sympy",
+        "isExtraImport": true,
+        "detail": "sympy",
+        "documentation": {}
+    },
+    {
+        "label": "simplify",
+        "importPath": "sympy",
+        "description": "sympy",
+        "isExtraImport": true,
+        "detail": "sympy",
+        "documentation": {}
+    },
+    {
+        "label": "Matrix",
+        "importPath": "sympy",
+        "description": "sympy",
+        "isExtraImport": true,
+        "detail": "sympy",
+        "documentation": {}
+    },
+    {
         "label": "simplify",
         "importPath": "sympy",
         "description": "sympy",
@@ -470,6 +534,14 @@
         "description": "sympy",
         "isExtraImport": true,
         "detail": "sympy",
+        "documentation": {}
+    },
+    {
+        "label": "R_singular",
+        "importPath": "robotics_lib.examples.rotation-examples",
+        "description": "robotics_lib.examples.rotation-examples",
+        "isExtraImport": true,
+        "detail": "robotics_lib.examples.rotation-examples",
         "documentation": {}
     },
     {
@@ -798,7 +870,7 @@
         "kind": 5,
         "importPath": "exam_tests.ex_2021",
         "description": "exam_tests.ex_2021",
-        "peekOfCode": "op = f_r \nwRo = Matrix([\n    [-1, 0, 0],\n    [0, 0, 1],\n    [0, 1, 0]\n            ])\nwp = wRo * op\nwp",
+        "peekOfCode": "op = f_r \nwRo = Matrix([\n    [-1, 0, 0],\n    [0, 0, 1],\n    [0, 1, 0]\n            ])\nwp = wRo * op\nwp\n#third part of the exam ------------------------------------------------\n# %% declare q1, q2, q3, q4 as symbols and l1, l2 as symbols",
         "detail": "exam_tests.ex_2021",
         "documentation": {}
     },
@@ -807,7 +879,7 @@
         "kind": 5,
         "importPath": "exam_tests.ex_2021",
         "description": "exam_tests.ex_2021",
-        "peekOfCode": "wRo = Matrix([\n    [-1, 0, 0],\n    [0, 0, 1],\n    [0, 1, 0]\n            ])\nwp = wRo * op\nwp",
+        "peekOfCode": "wRo = Matrix([\n    [-1, 0, 0],\n    [0, 0, 1],\n    [0, 1, 0]\n            ])\nwp = wRo * op\nwp\n#third part of the exam ------------------------------------------------\n# %% declare q1, q2, q3, q4 as symbols and l1, l2 as symbols\nq1, q2, q3, q4 = symbols('q1 q2 q3 q4')",
         "detail": "exam_tests.ex_2021",
         "documentation": {}
     },
@@ -816,7 +888,160 @@
         "kind": 5,
         "importPath": "exam_tests.ex_2021",
         "description": "exam_tests.ex_2021",
-        "peekOfCode": "wp = wRo * op\nwp",
+        "peekOfCode": "wp = wRo * op\nwp\n#third part of the exam ------------------------------------------------\n# %% declare q1, q2, q3, q4 as symbols and l1, l2 as symbols\nq1, q2, q3, q4 = symbols('q1 q2 q3 q4')\nl1, l2 = symbols('l1 l2')\n# %% create the DH table\ndh_table = Matrix([\n    [0, l1, 0, q1],           # alpha, a, d, theta for joint 1\n    [-pi/2, 0, 0, q2-pi/2],    # alpha, a, d, theta for joint 2",
+        "detail": "exam_tests.ex_2021",
+        "documentation": {}
+    },
+    {
+        "label": "dh_table",
+        "kind": 5,
+        "importPath": "exam_tests.ex_2021",
+        "description": "exam_tests.ex_2021",
+        "peekOfCode": "dh_table = Matrix([\n    [0, l1, 0, q1],           # alpha, a, d, theta for joint 1\n    [-pi/2, 0, 0, q2-pi/2],    # alpha, a, d, theta for joint 2\n    [pi/2, 0, q3, 0],\n    [0, l2, 0, q4+pi/2]\n])\n# %% compute transformation matrices\nT, A = dh_matrix(dh_table)\nT = simplify(T)\nA0_1 = simplify(A[0])",
+        "detail": "exam_tests.ex_2021",
+        "documentation": {}
+    },
+    {
+        "label": "T",
+        "kind": 5,
+        "importPath": "exam_tests.ex_2021",
+        "description": "exam_tests.ex_2021",
+        "peekOfCode": "T = simplify(T)\nA0_1 = simplify(A[0])\nA1_2 = simplify(A[1])\nA2_3 = simplify(A[2])\nA0_1\nA1_2\nA2_3\n# %% get the forward kinematics mapping [X Y Z PHI]\nf_r_3D = get_f_r(T)\nf_r_3D",
+        "detail": "exam_tests.ex_2021",
+        "documentation": {}
+    },
+    {
+        "label": "A0_1",
+        "kind": 5,
+        "importPath": "exam_tests.ex_2021",
+        "description": "exam_tests.ex_2021",
+        "peekOfCode": "A0_1 = simplify(A[0])\nA1_2 = simplify(A[1])\nA2_3 = simplify(A[2])\nA0_1\nA1_2\nA2_3\n# %% get the forward kinematics mapping [X Y Z PHI]\nf_r_3D = get_f_r(T)\nf_r_3D\n# %% select only [X Y PHI] components",
+        "detail": "exam_tests.ex_2021",
+        "documentation": {}
+    },
+    {
+        "label": "A1_2",
+        "kind": 5,
+        "importPath": "exam_tests.ex_2021",
+        "description": "exam_tests.ex_2021",
+        "peekOfCode": "A1_2 = simplify(A[1])\nA2_3 = simplify(A[2])\nA0_1\nA1_2\nA2_3\n# %% get the forward kinematics mapping [X Y Z PHI]\nf_r_3D = get_f_r(T)\nf_r_3D\n# %% select only [X Y PHI] components\nf_r = Matrix([f_r_3D[0], f_r_3D[1], f_r_3D[3]])",
+        "detail": "exam_tests.ex_2021",
+        "documentation": {}
+    },
+    {
+        "label": "A2_3",
+        "kind": 5,
+        "importPath": "exam_tests.ex_2021",
+        "description": "exam_tests.ex_2021",
+        "peekOfCode": "A2_3 = simplify(A[2])\nA0_1\nA1_2\nA2_3\n# %% get the forward kinematics mapping [X Y Z PHI]\nf_r_3D = get_f_r(T)\nf_r_3D\n# %% select only [X Y PHI] components\nf_r = Matrix([f_r_3D[0], f_r_3D[1], f_r_3D[3]])\n# %% compute the jacobian",
+        "detail": "exam_tests.ex_2021",
+        "documentation": {}
+    },
+    {
+        "label": "f_r_3D",
+        "kind": 5,
+        "importPath": "exam_tests.ex_2021",
+        "description": "exam_tests.ex_2021",
+        "peekOfCode": "f_r_3D = get_f_r(T)\nf_r_3D\n# %% select only [X Y PHI] components\nf_r = Matrix([f_r_3D[0], f_r_3D[1], f_r_3D[3]])\n# %% compute the jacobian\nvars_list = Matrix([q1, q2, q3, q4])\nj = f_r.jacobian(vars_list)\nj = simplify(j)\nj\n# %% transform the jacobian to frame 1",
+        "detail": "exam_tests.ex_2021",
+        "documentation": {}
+    },
+    {
+        "label": "f_r",
+        "kind": 5,
+        "importPath": "exam_tests.ex_2021",
+        "description": "exam_tests.ex_2021",
+        "peekOfCode": "f_r = Matrix([f_r_3D[0], f_r_3D[1], f_r_3D[3]])\n# %% compute the jacobian\nvars_list = Matrix([q1, q2, q3, q4])\nj = f_r.jacobian(vars_list)\nj = simplify(j)\nj\n# %% transform the jacobian to frame 1\nR0_1 = get_rotation_mat(A[0])\nj1_3 = R0_1.transpose() * j\nj1_3 = simplify(j1_3)",
+        "detail": "exam_tests.ex_2021",
+        "documentation": {}
+    },
+    {
+        "label": "vars_list",
+        "kind": 5,
+        "importPath": "exam_tests.ex_2021",
+        "description": "exam_tests.ex_2021",
+        "peekOfCode": "vars_list = Matrix([q1, q2, q3, q4])\nj = f_r.jacobian(vars_list)\nj = simplify(j)\nj\n# %% transform the jacobian to frame 1\nR0_1 = get_rotation_mat(A[0])\nj1_3 = R0_1.transpose() * j\nj1_3 = simplify(j1_3)\nj1_3\n#convert j1_3 to sympy matrix",
+        "detail": "exam_tests.ex_2021",
+        "documentation": {}
+    },
+    {
+        "label": "j",
+        "kind": 5,
+        "importPath": "exam_tests.ex_2021",
+        "description": "exam_tests.ex_2021",
+        "peekOfCode": "j = f_r.jacobian(vars_list)\nj = simplify(j)\nj\n# %% transform the jacobian to frame 1\nR0_1 = get_rotation_mat(A[0])\nj1_3 = R0_1.transpose() * j\nj1_3 = simplify(j1_3)\nj1_3\n#convert j1_3 to sympy matrix\nj1_3 = Matrix(j1_3)",
+        "detail": "exam_tests.ex_2021",
+        "documentation": {}
+    },
+    {
+        "label": "j",
+        "kind": 5,
+        "importPath": "exam_tests.ex_2021",
+        "description": "exam_tests.ex_2021",
+        "peekOfCode": "j = simplify(j)\nj\n# %% transform the jacobian to frame 1\nR0_1 = get_rotation_mat(A[0])\nj1_3 = R0_1.transpose() * j\nj1_3 = simplify(j1_3)\nj1_3\n#convert j1_3 to sympy matrix\nj1_3 = Matrix(j1_3)\n#%% get minor of j1_3 using get_minors",
+        "detail": "exam_tests.ex_2021",
+        "documentation": {}
+    },
+    {
+        "label": "R0_1",
+        "kind": 5,
+        "importPath": "exam_tests.ex_2021",
+        "description": "exam_tests.ex_2021",
+        "peekOfCode": "R0_1 = get_rotation_mat(A[0])\nj1_3 = R0_1.transpose() * j\nj1_3 = simplify(j1_3)\nj1_3\n#convert j1_3 to sympy matrix\nj1_3 = Matrix(j1_3)\n#%% get minor of j1_3 using get_minors\nminors = get_minors(j1_3,3)\n# %% compute the determinant of the minors\ndeterminants = [m.det() for m in minors]",
+        "detail": "exam_tests.ex_2021",
+        "documentation": {}
+    },
+    {
+        "label": "j1_3",
+        "kind": 5,
+        "importPath": "exam_tests.ex_2021",
+        "description": "exam_tests.ex_2021",
+        "peekOfCode": "j1_3 = R0_1.transpose() * j\nj1_3 = simplify(j1_3)\nj1_3\n#convert j1_3 to sympy matrix\nj1_3 = Matrix(j1_3)\n#%% get minor of j1_3 using get_minors\nminors = get_minors(j1_3,3)\n# %% compute the determinant of the minors\ndeterminants = [m.det() for m in minors]\n#%%find the values of q1, q2, q3, q4 that make the first minor determinant zero",
+        "detail": "exam_tests.ex_2021",
+        "documentation": {}
+    },
+    {
+        "label": "j1_3",
+        "kind": 5,
+        "importPath": "exam_tests.ex_2021",
+        "description": "exam_tests.ex_2021",
+        "peekOfCode": "j1_3 = simplify(j1_3)\nj1_3\n#convert j1_3 to sympy matrix\nj1_3 = Matrix(j1_3)\n#%% get minor of j1_3 using get_minors\nminors = get_minors(j1_3,3)\n# %% compute the determinant of the minors\ndeterminants = [m.det() for m in minors]\n#%%find the values of q1, q2, q3, q4 that make the first minor determinant zero\nsingular_1 = solve(determinants[1], [q1,q2,q3,q4], dict=True)",
+        "detail": "exam_tests.ex_2021",
+        "documentation": {}
+    },
+    {
+        "label": "j1_3",
+        "kind": 5,
+        "importPath": "exam_tests.ex_2021",
+        "description": "exam_tests.ex_2021",
+        "peekOfCode": "j1_3 = Matrix(j1_3)\n#%% get minor of j1_3 using get_minors\nminors = get_minors(j1_3,3)\n# %% compute the determinant of the minors\ndeterminants = [m.det() for m in minors]\n#%%find the values of q1, q2, q3, q4 that make the first minor determinant zero\nsingular_1 = solve(determinants[1], [q1,q2,q3,q4], dict=True)\nsingular_1\n# %%",
+        "detail": "exam_tests.ex_2021",
+        "documentation": {}
+    },
+    {
+        "label": "minors",
+        "kind": 5,
+        "importPath": "exam_tests.ex_2021",
+        "description": "exam_tests.ex_2021",
+        "peekOfCode": "minors = get_minors(j1_3,3)\n# %% compute the determinant of the minors\ndeterminants = [m.det() for m in minors]\n#%%find the values of q1, q2, q3, q4 that make the first minor determinant zero\nsingular_1 = solve(determinants[1], [q1,q2,q3,q4], dict=True)\nsingular_1\n# %%",
+        "detail": "exam_tests.ex_2021",
+        "documentation": {}
+    },
+    {
+        "label": "determinants",
+        "kind": 5,
+        "importPath": "exam_tests.ex_2021",
+        "description": "exam_tests.ex_2021",
+        "peekOfCode": "determinants = [m.det() for m in minors]\n#%%find the values of q1, q2, q3, q4 that make the first minor determinant zero\nsingular_1 = solve(determinants[1], [q1,q2,q3,q4], dict=True)\nsingular_1\n# %%",
+        "detail": "exam_tests.ex_2021",
+        "documentation": {}
+    },
+    {
+        "label": "singular_1",
+        "kind": 5,
+        "importPath": "exam_tests.ex_2021",
+        "description": "exam_tests.ex_2021",
+        "peekOfCode": "singular_1 = solve(determinants[1], [q1,q2,q3,q4], dict=True)\nsingular_1\n# %%",
         "detail": "exam_tests.ex_2021",
         "documentation": {}
     },
@@ -1663,6 +1888,15 @@
         "importPath": "robotics_lib.geometric",
         "description": "robotics_lib.geometric",
         "peekOfCode": "def angle_axis_from_rot_mat(R: sp.Matrix) -> Tuple[sp.Matrix, sp.Expr]:\n    \"\"\"\n    Extract axis and angle from rotation matrix.\n    Parameters:\n    -----------\n    R: sp.Matrix\n        3x3 rotation matrix\n    Returns:\n    --------\n    axis: sp.Matrix",
+        "detail": "robotics_lib.geometric",
+        "documentation": {}
+    },
+    {
+        "label": "get_minors",
+        "kind": 2,
+        "importPath": "robotics_lib.geometric",
+        "description": "robotics_lib.geometric",
+        "peekOfCode": "def get_minors(matrix: Matrix, size_minor_matrix: int) -> List[Matrix]:\n    from itertools import combinations\n    \"\"\"\n    Get all possible minors of a given size from a matrix using SymPy's built-in functions.\n    Args:\n        matrix: SymPy Matrix to extract minors from\n        size_minor_matrix: Size of the minor matrices to extract (must be less than or equal to matrix dimensions)\n    Returns:\n        List of all possible minor matrices of the specified size\n    Example:",
         "detail": "robotics_lib.geometric",
         "documentation": {}
     },

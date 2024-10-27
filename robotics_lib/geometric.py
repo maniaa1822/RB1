@@ -1,6 +1,7 @@
 from typing import List, Union, Tuple
 import sympy as sp
 from sympy import Matrix, cos, sin, simplify, eye, atan2, sqrt, acos, asin
+from sympy import Matrix, zeros, ones, eye, Expr, Symbol, simplify
 
 def elem_rot_mat(axis: str, angle: sp.Symbol) -> sp.Matrix:
     """
@@ -296,47 +297,46 @@ def angle_axis_from_rot_mat(R: sp.Matrix) -> Tuple[sp.Matrix, sp.Expr]:
     
     return simplify(axis), simplify(angle)
 
-
+def get_minors(matrix: Matrix, size_minor_matrix: int) -> List[Matrix]:
+    from itertools import combinations
     """
-    Calculate the geometric Jacobian.
+    Get all possible minors of a given size from a matrix using SymPy's built-in functions.
     
-    Parameters:
-    -----------
-    f_r: sp.Matrix
-        Mapping from joint space to cartesian space
-    sequence: str
-        String of 'r's and 'p's indicating revolute or prismatic joints
-    q_in: List[sp.Symbol]
-        List of joint variables
-    params: sp.Matrix
-        DH parameters
+    Args:
+        matrix: SymPy Matrix to extract minors from
+        size_minor_matrix: Size of the minor matrices to extract (must be less than or equal to matrix dimensions)
         
     Returns:
-    --------
-    Jl: sp.Matrix
-        Linear velocity Jacobian
-    Ja: sp.Matrix
-        Angular velocity Jacobian
+        List of all possible minor matrices of the specified size
+        
+    Example:
+        >>> from sympy import Matrix, symbols
+        >>> x, y = symbols('x y')
+        >>> M = Matrix([[x, y, 1],
+        ...            [2, 3, 4],
+        ...            [5, 6, 7]])
+        >>> minors = get_minors(M, 2)
+        >>> print(f"Number of {2}x{2} minors: {len(minors)}")
+        >>> print("First minor:")
+        >>> print(minors[0])
     """
-    sequence = sequence.lower()
-    n_dof = len(sequence)
+    m, n = matrix.shape
     
-    # Extract position part (first 3 components)
-    f_r_pos = f_r[:3]
+    # Validate input
+    if size_minor_matrix > min(m, n):
+        raise ValueError(f"Minor size {size_minor_matrix} must be less than or equal to minimum matrix dimension {min(m, n)}")
+    if size_minor_matrix <= 0:
+        raise ValueError("Minor size must be positive")
+        
+    # Get all possible row and column combinations
+    row_combinations = list(combinations(range(m), size_minor_matrix))
+    col_combinations = list(combinations(range(n), size_minor_matrix))
     
-    # Calculate linear velocity Jacobian
-    Jl = f_r_pos.jacobian(q_in)
-    
-    # Calculate angular velocity Jacobian
-    Ja = Matrix.zeros(3, n_dof)
-    z0 = Matrix([0, 0, 1])
-    
-    prev_R = eye(3)
-    for i in range(n_dof):
-        if sequence[i] == 'r':
-            Ja[:, i] = prev_R * z0
-        # Update rotation for next iteration
-        if i < n_dof - 1:
-            prev_R = prev_R * elem_rot_mat(params[i, 0], params[i, 3])
-    
-    return simplify(Jl), simplify(Ja)
+    # Generate all possible minors using matrix.extract()
+    minors = []
+    for rows in row_combinations:
+        for cols in col_combinations:
+            minor = matrix.extract(rows, cols)
+            minors.append(minor)
+            
+    return minors
