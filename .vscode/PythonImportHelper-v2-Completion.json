@@ -1,10 +1,154 @@
 [
     {
+        "label": "*",
+        "importPath": "robotics_lib.geometric",
+        "description": "robotics_lib.geometric",
+        "isExtraImport": true,
+        "detail": "robotics_lib.geometric",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "robotics_lib.geometric",
+        "description": "robotics_lib.geometric",
+        "isExtraImport": true,
+        "detail": "robotics_lib.geometric",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "robotics_lib.kinematics",
+        "description": "robotics_lib.kinematics",
+        "isExtraImport": true,
+        "detail": "robotics_lib.kinematics",
+        "documentation": {}
+    },
+    {
+        "label": "dh_matrix",
+        "importPath": "robotics_lib.kinematics",
+        "description": "robotics_lib.kinematics",
+        "isExtraImport": true,
+        "detail": "robotics_lib.kinematics",
+        "documentation": {}
+    },
+    {
+        "label": "get_f_r",
+        "importPath": "robotics_lib.kinematics",
+        "description": "robotics_lib.kinematics",
+        "isExtraImport": true,
+        "detail": "robotics_lib.kinematics",
+        "documentation": {}
+    },
+    {
+        "label": "geometric_jacobian",
+        "importPath": "robotics_lib.kinematics",
+        "description": "robotics_lib.kinematics",
+        "isExtraImport": true,
+        "detail": "robotics_lib.kinematics",
+        "documentation": {}
+    },
+    {
+        "label": "dh_matrix",
+        "importPath": "robotics_lib.kinematics",
+        "description": "robotics_lib.kinematics",
+        "isExtraImport": true,
+        "detail": "robotics_lib.kinematics",
+        "documentation": {}
+    },
+    {
+        "label": "get_f_r",
+        "importPath": "robotics_lib.kinematics",
+        "description": "robotics_lib.kinematics",
+        "isExtraImport": true,
+        "detail": "robotics_lib.kinematics",
+        "documentation": {}
+    },
+    {
+        "label": "get_rotation_mat",
+        "importPath": "robotics_lib.kinematics",
+        "description": "robotics_lib.kinematics",
+        "isExtraImport": true,
+        "detail": "robotics_lib.kinematics",
+        "documentation": {}
+    },
+    {
         "label": "sympy",
         "kind": 6,
         "isExtraImport": true,
         "importPath": "sympy",
         "description": "sympy",
+        "detail": "sympy",
+        "documentation": {}
+    },
+    {
+        "label": "symbols",
+        "importPath": "sympy",
+        "description": "sympy",
+        "isExtraImport": true,
+        "detail": "sympy",
+        "documentation": {}
+    },
+    {
+        "label": "Matrix",
+        "importPath": "sympy",
+        "description": "sympy",
+        "isExtraImport": true,
+        "detail": "sympy",
+        "documentation": {}
+    },
+    {
+        "label": "pi",
+        "importPath": "sympy",
+        "description": "sympy",
+        "isExtraImport": true,
+        "detail": "sympy",
+        "documentation": {}
+    },
+    {
+        "label": "cos",
+        "importPath": "sympy",
+        "description": "sympy",
+        "isExtraImport": true,
+        "detail": "sympy",
+        "documentation": {}
+    },
+    {
+        "label": "sin",
+        "importPath": "sympy",
+        "description": "sympy",
+        "isExtraImport": true,
+        "detail": "sympy",
+        "documentation": {}
+    },
+    {
+        "label": "simplify",
+        "importPath": "sympy",
+        "description": "sympy",
+        "isExtraImport": true,
+        "detail": "sympy",
+        "documentation": {}
+    },
+    {
+        "label": "eye",
+        "importPath": "sympy",
+        "description": "sympy",
+        "isExtraImport": true,
+        "detail": "sympy",
+        "documentation": {}
+    },
+    {
+        "label": "sqrt",
+        "importPath": "sympy",
+        "description": "sympy",
+        "isExtraImport": true,
+        "detail": "sympy",
+        "documentation": {}
+    },
+    {
+        "label": "deg",
+        "importPath": "sympy",
+        "description": "sympy",
+        "isExtraImport": true,
         "detail": "sympy",
         "documentation": {}
     },
@@ -329,54 +473,6 @@
         "documentation": {}
     },
     {
-        "label": "dh_matrix",
-        "importPath": "robotics_lib.kinematics",
-        "description": "robotics_lib.kinematics",
-        "isExtraImport": true,
-        "detail": "robotics_lib.kinematics",
-        "documentation": {}
-    },
-    {
-        "label": "get_f_r",
-        "importPath": "robotics_lib.kinematics",
-        "description": "robotics_lib.kinematics",
-        "isExtraImport": true,
-        "detail": "robotics_lib.kinematics",
-        "documentation": {}
-    },
-    {
-        "label": "geometric_jacobian",
-        "importPath": "robotics_lib.kinematics",
-        "description": "robotics_lib.kinematics",
-        "isExtraImport": true,
-        "detail": "robotics_lib.kinematics",
-        "documentation": {}
-    },
-    {
-        "label": "dh_matrix",
-        "importPath": "robotics_lib.kinematics",
-        "description": "robotics_lib.kinematics",
-        "isExtraImport": true,
-        "detail": "robotics_lib.kinematics",
-        "documentation": {}
-    },
-    {
-        "label": "get_f_r",
-        "importPath": "robotics_lib.kinematics",
-        "description": "robotics_lib.kinematics",
-        "isExtraImport": true,
-        "detail": "robotics_lib.kinematics",
-        "documentation": {}
-    },
-    {
-        "label": "get_rotation_mat",
-        "importPath": "robotics_lib.kinematics",
-        "description": "robotics_lib.kinematics",
-        "isExtraImport": true,
-        "detail": "robotics_lib.kinematics",
-        "documentation": {}
-    },
-    {
         "label": "numpy",
         "kind": 6,
         "isExtraImport": true,
@@ -392,14 +488,6 @@
         "importPath": "matplotlib.pyplot",
         "description": "matplotlib.pyplot",
         "detail": "matplotlib.pyplot",
-        "documentation": {}
-    },
-    {
-        "label": "*",
-        "importPath": "robotics_lib.geometric",
-        "description": "robotics_lib.geometric",
-        "isExtraImport": true,
-        "detail": "robotics_lib.geometric",
         "documentation": {}
     },
     {
@@ -496,6 +584,240 @@
         "description": "setuptools",
         "isExtraImport": true,
         "detail": "setuptools",
+        "documentation": {}
+    },
+    {
+        "label": "R_yxz",
+        "kind": 5,
+        "importPath": "exam_tests.ex_2021",
+        "description": "exam_tests.ex_2021",
+        "peekOfCode": "R_yxz = euler_rotation('yxz', [alpha, beta, theta])\nR_yxz\n# %% compute b, a, c with atan2\nb = atan2(-sqrt(3)/2, 1/2)\na = atan2(0, (1/2)/cos(b))\nc = atan2((1/2)/cos(b),0)\n# %% convert to degrees the output should be a = 180, b = -60 , c = 90\na = deg(a)\nb = deg(b)\nc = deg(c)",
+        "detail": "exam_tests.ex_2021",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "exam_tests.ex_2021",
+        "description": "exam_tests.ex_2021",
+        "peekOfCode": "b = atan2(-sqrt(3)/2, 1/2)\na = atan2(0, (1/2)/cos(b))\nc = atan2((1/2)/cos(b),0)\n# %% convert to degrees the output should be a = 180, b = -60 , c = 90\na = deg(a)\nb = deg(b)\nc = deg(c)\n#%% get numerical values\na_num = a.evalf()\nb_num = b.evalf()",
+        "detail": "exam_tests.ex_2021",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "exam_tests.ex_2021",
+        "description": "exam_tests.ex_2021",
+        "peekOfCode": "a = atan2(0, (1/2)/cos(b))\nc = atan2((1/2)/cos(b),0)\n# %% convert to degrees the output should be a = 180, b = -60 , c = 90\na = deg(a)\nb = deg(b)\nc = deg(c)\n#%% get numerical values\na_num = a.evalf()\nb_num = b.evalf()\nc_num = c.evalf()",
+        "detail": "exam_tests.ex_2021",
+        "documentation": {}
+    },
+    {
+        "label": "c",
+        "kind": 5,
+        "importPath": "exam_tests.ex_2021",
+        "description": "exam_tests.ex_2021",
+        "peekOfCode": "c = atan2((1/2)/cos(b),0)\n# %% convert to degrees the output should be a = 180, b = -60 , c = 90\na = deg(a)\nb = deg(b)\nc = deg(c)\n#%% get numerical values\na_num = a.evalf()\nb_num = b.evalf()\nc_num = c.evalf()\n# %% display results",
+        "detail": "exam_tests.ex_2021",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "exam_tests.ex_2021",
+        "description": "exam_tests.ex_2021",
+        "peekOfCode": "a = deg(a)\nb = deg(b)\nc = deg(c)\n#%% get numerical values\na_num = a.evalf()\nb_num = b.evalf()\nc_num = c.evalf()\n# %% display results\n{\n    'a': a,",
+        "detail": "exam_tests.ex_2021",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "exam_tests.ex_2021",
+        "description": "exam_tests.ex_2021",
+        "peekOfCode": "b = deg(b)\nc = deg(c)\n#%% get numerical values\na_num = a.evalf()\nb_num = b.evalf()\nc_num = c.evalf()\n# %% display results\n{\n    'a': a,\n    'b': b,",
+        "detail": "exam_tests.ex_2021",
+        "documentation": {}
+    },
+    {
+        "label": "c",
+        "kind": 5,
+        "importPath": "exam_tests.ex_2021",
+        "description": "exam_tests.ex_2021",
+        "peekOfCode": "c = deg(c)\n#%% get numerical values\na_num = a.evalf()\nb_num = b.evalf()\nc_num = c.evalf()\n# %% display results\n{\n    'a': a,\n    'b': b,\n    'c': c",
+        "detail": "exam_tests.ex_2021",
+        "documentation": {}
+    },
+    {
+        "label": "a_num",
+        "kind": 5,
+        "importPath": "exam_tests.ex_2021",
+        "description": "exam_tests.ex_2021",
+        "peekOfCode": "a_num = a.evalf()\nb_num = b.evalf()\nc_num = c.evalf()\n# %% display results\n{\n    'a': a,\n    'b': b,\n    'c': c\n}\n# %% sub in the values of a, b, c to get the rotation matrix",
+        "detail": "exam_tests.ex_2021",
+        "documentation": {}
+    },
+    {
+        "label": "b_num",
+        "kind": 5,
+        "importPath": "exam_tests.ex_2021",
+        "description": "exam_tests.ex_2021",
+        "peekOfCode": "b_num = b.evalf()\nc_num = c.evalf()\n# %% display results\n{\n    'a': a,\n    'b': b,\n    'c': c\n}\n# %% sub in the values of a, b, c to get the rotation matrix\nR_yxz_num = R_yxz.subs({alpha: a, beta: b, theta: c})",
+        "detail": "exam_tests.ex_2021",
+        "documentation": {}
+    },
+    {
+        "label": "c_num",
+        "kind": 5,
+        "importPath": "exam_tests.ex_2021",
+        "description": "exam_tests.ex_2021",
+        "peekOfCode": "c_num = c.evalf()\n# %% display results\n{\n    'a': a,\n    'b': b,\n    'c': c\n}\n# %% sub in the values of a, b, c to get the rotation matrix\nR_yxz_num = R_yxz.subs({alpha: a, beta: b, theta: c})\n#%% create a new vector BV_B = [1, -1, 0]",
+        "detail": "exam_tests.ex_2021",
+        "documentation": {}
+    },
+    {
+        "label": "R_yxz_num",
+        "kind": 5,
+        "importPath": "exam_tests.ex_2021",
+        "description": "exam_tests.ex_2021",
+        "peekOfCode": "R_yxz_num = R_yxz.subs({alpha: a, beta: b, theta: c})\n#%% create a new vector BV_B = [1, -1, 0]\nBV_B = Matrix([1, -1, 0])\nBV_B\nWR_B = R_yxz_num\nWR_B\n#%%WR_B * BV_B \nWR_B_BV_B = WR_B @ BV_B\nWR_B_BV_B\n#%% calculate the skew symmetric matrix of WR_B_BV_B",
+        "detail": "exam_tests.ex_2021",
+        "documentation": {}
+    },
+    {
+        "label": "BV_B",
+        "kind": 5,
+        "importPath": "exam_tests.ex_2021",
+        "description": "exam_tests.ex_2021",
+        "peekOfCode": "BV_B = Matrix([1, -1, 0])\nBV_B\nWR_B = R_yxz_num\nWR_B\n#%%WR_B * BV_B \nWR_B_BV_B = WR_B @ BV_B\nWR_B_BV_B\n#%% calculate the skew symmetric matrix of WR_B_BV_B\nK = Matrix([\n    [0, -WR_B_BV_B[2], WR_B_BV_B[1]],",
+        "detail": "exam_tests.ex_2021",
+        "documentation": {}
+    },
+    {
+        "label": "WR_B",
+        "kind": 5,
+        "importPath": "exam_tests.ex_2021",
+        "description": "exam_tests.ex_2021",
+        "peekOfCode": "WR_B = R_yxz_num\nWR_B\n#%%WR_B * BV_B \nWR_B_BV_B = WR_B @ BV_B\nWR_B_BV_B\n#%% calculate the skew symmetric matrix of WR_B_BV_B\nK = Matrix([\n    [0, -WR_B_BV_B[2], WR_B_BV_B[1]],\n    [WR_B_BV_B[2], 0, -WR_B_BV_B[0]],\n    [-WR_B_BV_B[1], WR_B_BV_B[0], 0]",
+        "detail": "exam_tests.ex_2021",
+        "documentation": {}
+    },
+    {
+        "label": "WR_B_BV_B",
+        "kind": 5,
+        "importPath": "exam_tests.ex_2021",
+        "description": "exam_tests.ex_2021",
+        "peekOfCode": "WR_B_BV_B = WR_B @ BV_B\nWR_B_BV_B\n#%% calculate the skew symmetric matrix of WR_B_BV_B\nK = Matrix([\n    [0, -WR_B_BV_B[2], WR_B_BV_B[1]],\n    [WR_B_BV_B[2], 0, -WR_B_BV_B[0]],\n    [-WR_B_BV_B[1], WR_B_BV_B[0], 0]\n])\n#%% multiply WR_B by K\nWR_B_dot = K @ WR_B",
+        "detail": "exam_tests.ex_2021",
+        "documentation": {}
+    },
+    {
+        "label": "K",
+        "kind": 5,
+        "importPath": "exam_tests.ex_2021",
+        "description": "exam_tests.ex_2021",
+        "peekOfCode": "K = Matrix([\n    [0, -WR_B_BV_B[2], WR_B_BV_B[1]],\n    [WR_B_BV_B[2], 0, -WR_B_BV_B[0]],\n    [-WR_B_BV_B[1], WR_B_BV_B[0], 0]\n])\n#%% multiply WR_B by K\nWR_B_dot = K @ WR_B\nWR_B_dot\n# second part of the question\n#create q1, q2, q3 symbols and l0, l1, l2, l3 symbols",
+        "detail": "exam_tests.ex_2021",
+        "documentation": {}
+    },
+    {
+        "label": "WR_B_dot",
+        "kind": 5,
+        "importPath": "exam_tests.ex_2021",
+        "description": "exam_tests.ex_2021",
+        "peekOfCode": "WR_B_dot = K @ WR_B\nWR_B_dot\n# second part of the question\n#create q1, q2, q3 symbols and l0, l1, l2, l3 symbols\nq1, q2, q3 = symbols('q1 q2 q3')\nl0, l1, l2, l3 = symbols('l0 l1 l2 l3')\n# %% create the DH table\ndh_table = Matrix([\n    [-pi/2, -l1, l0, q1],           # alpha, a, d, theta for joint 1\n    [-pi/2, -l1, 0, q2],    # alpha, a, d, theta for joint 2",
+        "detail": "exam_tests.ex_2021",
+        "documentation": {}
+    },
+    {
+        "label": "dh_table",
+        "kind": 5,
+        "importPath": "exam_tests.ex_2021",
+        "description": "exam_tests.ex_2021",
+        "peekOfCode": "dh_table = Matrix([\n    [-pi/2, -l1, l0, q1],           # alpha, a, d, theta for joint 1\n    [-pi/2, -l1, 0, q2],    # alpha, a, d, theta for joint 2\n    [0, -l3, 0, q3]             # alpha, a, d, theta for joint 3\n])\ndh_table\n# %%\nT, A = dh_matrix(dh_table)\n# %% display final transformation matrix and individual transformation matrices assinging\n#individual transformation matrices to A0_1, A1_2, A2_3",
+        "detail": "exam_tests.ex_2021",
+        "documentation": {}
+    },
+    {
+        "label": "T",
+        "kind": 5,
+        "importPath": "exam_tests.ex_2021",
+        "description": "exam_tests.ex_2021",
+        "peekOfCode": "T = simplify(T)\nA0_1 = simplify(A[0])\nA1_2 = simplify(A[1])\nA2_3 = simplify(A[2])\n#%% obtain the forward kinematics mapping [X Y Z PHI]\nf_r_3D = get_f_r(T)\nf_r_3D\n# %%\n#%% select only [X Y PHI] components\nf_r = Matrix([f_r_3D[0], f_r_3D[1], f_r_3D[2]])",
+        "detail": "exam_tests.ex_2021",
+        "documentation": {}
+    },
+    {
+        "label": "A0_1",
+        "kind": 5,
+        "importPath": "exam_tests.ex_2021",
+        "description": "exam_tests.ex_2021",
+        "peekOfCode": "A0_1 = simplify(A[0])\nA1_2 = simplify(A[1])\nA2_3 = simplify(A[2])\n#%% obtain the forward kinematics mapping [X Y Z PHI]\nf_r_3D = get_f_r(T)\nf_r_3D\n# %%\n#%% select only [X Y PHI] components\nf_r = Matrix([f_r_3D[0], f_r_3D[1], f_r_3D[2]])\n# select only [X Y PHI] components",
+        "detail": "exam_tests.ex_2021",
+        "documentation": {}
+    },
+    {
+        "label": "A1_2",
+        "kind": 5,
+        "importPath": "exam_tests.ex_2021",
+        "description": "exam_tests.ex_2021",
+        "peekOfCode": "A1_2 = simplify(A[1])\nA2_3 = simplify(A[2])\n#%% obtain the forward kinematics mapping [X Y Z PHI]\nf_r_3D = get_f_r(T)\nf_r_3D\n# %%\n#%% select only [X Y PHI] components\nf_r = Matrix([f_r_3D[0], f_r_3D[1], f_r_3D[2]])\n# select only [X Y PHI] components\nf_r",
+        "detail": "exam_tests.ex_2021",
+        "documentation": {}
+    },
+    {
+        "label": "A2_3",
+        "kind": 5,
+        "importPath": "exam_tests.ex_2021",
+        "description": "exam_tests.ex_2021",
+        "peekOfCode": "A2_3 = simplify(A[2])\n#%% obtain the forward kinematics mapping [X Y Z PHI]\nf_r_3D = get_f_r(T)\nf_r_3D\n# %%\n#%% select only [X Y PHI] components\nf_r = Matrix([f_r_3D[0], f_r_3D[1], f_r_3D[2]])\n# select only [X Y PHI] components\nf_r\n#%% ",
+        "detail": "exam_tests.ex_2021",
+        "documentation": {}
+    },
+    {
+        "label": "f_r_3D",
+        "kind": 5,
+        "importPath": "exam_tests.ex_2021",
+        "description": "exam_tests.ex_2021",
+        "peekOfCode": "f_r_3D = get_f_r(T)\nf_r_3D\n# %%\n#%% select only [X Y PHI] components\nf_r = Matrix([f_r_3D[0], f_r_3D[1], f_r_3D[2]])\n# select only [X Y PHI] components\nf_r\n#%% \nop = f_r \nwRo = Matrix([",
+        "detail": "exam_tests.ex_2021",
+        "documentation": {}
+    },
+    {
+        "label": "f_r",
+        "kind": 5,
+        "importPath": "exam_tests.ex_2021",
+        "description": "exam_tests.ex_2021",
+        "peekOfCode": "f_r = Matrix([f_r_3D[0], f_r_3D[1], f_r_3D[2]])\n# select only [X Y PHI] components\nf_r\n#%% \nop = f_r \nwRo = Matrix([\n    [-1, 0, 0],\n    [0, 0, 1],\n    [0, 1, 0]\n            ])",
+        "detail": "exam_tests.ex_2021",
+        "documentation": {}
+    },
+    {
+        "label": "op",
+        "kind": 5,
+        "importPath": "exam_tests.ex_2021",
+        "description": "exam_tests.ex_2021",
+        "peekOfCode": "op = f_r \nwRo = Matrix([\n    [-1, 0, 0],\n    [0, 0, 1],\n    [0, 1, 0]\n            ])\nwp = wRo * op\nwp",
+        "detail": "exam_tests.ex_2021",
+        "documentation": {}
+    },
+    {
+        "label": "wRo",
+        "kind": 5,
+        "importPath": "exam_tests.ex_2021",
+        "description": "exam_tests.ex_2021",
+        "peekOfCode": "wRo = Matrix([\n    [-1, 0, 0],\n    [0, 0, 1],\n    [0, 1, 0]\n            ])\nwp = wRo * op\nwp",
+        "detail": "exam_tests.ex_2021",
+        "documentation": {}
+    },
+    {
+        "label": "wp",
+        "kind": 5,
+        "importPath": "exam_tests.ex_2021",
+        "description": "exam_tests.ex_2021",
+        "peekOfCode": "wp = wRo * op\nwp",
+        "detail": "exam_tests.ex_2021",
         "documentation": {}
     },
     {
