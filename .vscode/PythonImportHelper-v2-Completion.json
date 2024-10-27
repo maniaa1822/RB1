@@ -1,0 +1,296 @@
+[
+    {
+        "label": "symbols",
+        "importPath": "sympy",
+        "description": "sympy",
+        "isExtraImport": true,
+        "detail": "sympy",
+        "documentation": {}
+    },
+    {
+        "label": "pi",
+        "importPath": "sympy",
+        "description": "sympy",
+        "isExtraImport": true,
+        "detail": "sympy",
+        "documentation": {}
+    },
+    {
+        "label": "Matrix",
+        "importPath": "sympy",
+        "description": "sympy",
+        "isExtraImport": true,
+        "detail": "sympy",
+        "documentation": {}
+    },
+    {
+        "label": "simplify",
+        "importPath": "sympy",
+        "description": "sympy",
+        "isExtraImport": true,
+        "detail": "sympy",
+        "documentation": {}
+    },
+    {
+        "label": "Matrix",
+        "importPath": "sympy",
+        "description": "sympy",
+        "isExtraImport": true,
+        "detail": "sympy",
+        "documentation": {}
+    },
+    {
+        "label": "simplify",
+        "importPath": "sympy",
+        "description": "sympy",
+        "isExtraImport": true,
+        "detail": "sympy",
+        "documentation": {}
+    },
+    {
+        "label": "cos",
+        "importPath": "sympy",
+        "description": "sympy",
+        "isExtraImport": true,
+        "detail": "sympy",
+        "documentation": {}
+    },
+    {
+        "label": "sin",
+        "importPath": "sympy",
+        "description": "sympy",
+        "isExtraImport": true,
+        "detail": "sympy",
+        "documentation": {}
+    },
+    {
+        "label": "eye",
+        "importPath": "sympy",
+        "description": "sympy",
+        "isExtraImport": true,
+        "detail": "sympy",
+        "documentation": {}
+    },
+    {
+        "label": "dh_matrix",
+        "importPath": "robotics_lib.kinematics",
+        "description": "robotics_lib.kinematics",
+        "isExtraImport": true,
+        "detail": "robotics_lib.kinematics",
+        "documentation": {}
+    },
+    {
+        "label": "get_f_r",
+        "importPath": "robotics_lib.kinematics",
+        "description": "robotics_lib.kinematics",
+        "isExtraImport": true,
+        "detail": "robotics_lib.kinematics",
+        "documentation": {}
+    },
+    {
+        "label": "get_rotation_mat",
+        "importPath": "robotics_lib.kinematics",
+        "description": "robotics_lib.kinematics",
+        "isExtraImport": true,
+        "detail": "robotics_lib.kinematics",
+        "documentation": {}
+    },
+    {
+        "label": "numpy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "numpy",
+        "description": "numpy",
+        "detail": "numpy",
+        "documentation": {}
+    },
+    {
+        "label": "matplotlib.pyplot",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "matplotlib.pyplot",
+        "description": "matplotlib.pyplot",
+        "detail": "matplotlib.pyplot",
+        "documentation": {}
+    },
+    {
+        "label": "l1",
+        "kind": 5,
+        "importPath": "robotics_lib.examples.example_kinematics",
+        "description": "robotics_lib.examples.example_kinematics",
+        "peekOfCode": "l1 = symbols('l1', real=True)\n#%% Create DH parameter table\ndh_table = Matrix([\n    [0,      l1,     0,  q1],           # alpha, a, d, theta for joint 1\n    [pi/2,   0,      0,  q2 + pi/2],    # alpha, a, d, theta for joint 2\n    [0,      0,      q3, 0]             # alpha, a, d, theta for joint 3\n])\n# Display DH table\ndh_table\n#%% Calculate transformation matrices",
+        "detail": "robotics_lib.examples.example_kinematics",
+        "documentation": {}
+    },
+    {
+        "label": "dh_table",
+        "kind": 5,
+        "importPath": "robotics_lib.examples.example_kinematics",
+        "description": "robotics_lib.examples.example_kinematics",
+        "peekOfCode": "dh_table = Matrix([\n    [0,      l1,     0,  q1],           # alpha, a, d, theta for joint 1\n    [pi/2,   0,      0,  q2 + pi/2],    # alpha, a, d, theta for joint 2\n    [0,      0,      q3, 0]             # alpha, a, d, theta for joint 3\n])\n# Display DH table\ndh_table\n#%% Calculate transformation matrices\n# Get final transformation matrix T and individual matrices A\nT, A = dh_matrix(dh_table)",
+        "detail": "robotics_lib.examples.example_kinematics",
+        "documentation": {}
+    },
+    {
+        "label": "f_r_3D",
+        "kind": 5,
+        "importPath": "robotics_lib.examples.example_kinematics",
+        "description": "robotics_lib.examples.example_kinematics",
+        "peekOfCode": "f_r_3D = get_f_r(T)\nsimplify(f_r_3D)\n# Select only [X Y PHI] components\nf_r = Matrix([f_r_3D[0], f_r_3D[1], f_r_3D[3]])\nsimplify(f_r)\n#%% Calculate Jacobian\nvars_list = Matrix([q1, q2, q3])\nj = f_r.jacobian(vars_list)\nsimplify(j)\n#%% Transform Jacobian to frame 1",
+        "detail": "robotics_lib.examples.example_kinematics",
+        "documentation": {}
+    },
+    {
+        "label": "f_r",
+        "kind": 5,
+        "importPath": "robotics_lib.examples.example_kinematics",
+        "description": "robotics_lib.examples.example_kinematics",
+        "peekOfCode": "f_r = Matrix([f_r_3D[0], f_r_3D[1], f_r_3D[3]])\nsimplify(f_r)\n#%% Calculate Jacobian\nvars_list = Matrix([q1, q2, q3])\nj = f_r.jacobian(vars_list)\nsimplify(j)\n#%% Transform Jacobian to frame 1\nR0_1 = get_rotation_mat(A[0])\nj1_3 = R0_1.transpose() * j\nsimplify(j1_3)",
+        "detail": "robotics_lib.examples.example_kinematics",
+        "documentation": {}
+    },
+    {
+        "label": "vars_list",
+        "kind": 5,
+        "importPath": "robotics_lib.examples.example_kinematics",
+        "description": "robotics_lib.examples.example_kinematics",
+        "peekOfCode": "vars_list = Matrix([q1, q2, q3])\nj = f_r.jacobian(vars_list)\nsimplify(j)\n#%% Transform Jacobian to frame 1\nR0_1 = get_rotation_mat(A[0])\nj1_3 = R0_1.transpose() * j\nsimplify(j1_3)\n#%% Calculate determinant\ndet_j1_3 = simplify(j1_3.det())\ndet_j1_3",
+        "detail": "robotics_lib.examples.example_kinematics",
+        "documentation": {}
+    },
+    {
+        "label": "j",
+        "kind": 5,
+        "importPath": "robotics_lib.examples.example_kinematics",
+        "description": "robotics_lib.examples.example_kinematics",
+        "peekOfCode": "j = f_r.jacobian(vars_list)\nsimplify(j)\n#%% Transform Jacobian to frame 1\nR0_1 = get_rotation_mat(A[0])\nj1_3 = R0_1.transpose() * j\nsimplify(j1_3)\n#%% Calculate determinant\ndet_j1_3 = simplify(j1_3.det())\ndet_j1_3\n#%% Calculate torques for specific configurations",
+        "detail": "robotics_lib.examples.example_kinematics",
+        "documentation": {}
+    },
+    {
+        "label": "R0_1",
+        "kind": 5,
+        "importPath": "robotics_lib.examples.example_kinematics",
+        "description": "robotics_lib.examples.example_kinematics",
+        "peekOfCode": "R0_1 = get_rotation_mat(A[0])\nj1_3 = R0_1.transpose() * j\nsimplify(j1_3)\n#%% Calculate determinant\ndet_j1_3 = simplify(j1_3.det())\ndet_j1_3\n#%% Calculate torques for specific configurations\n# Define force vector\nf = Matrix([0, 1.5, -4.5])\n# Configuration 1: q1 = π/2, q2 = 0, q3 = 3, l1 = 0.5",
+        "detail": "robotics_lib.examples.example_kinematics",
+        "documentation": {}
+    },
+    {
+        "label": "j1_3",
+        "kind": 5,
+        "importPath": "robotics_lib.examples.example_kinematics",
+        "description": "robotics_lib.examples.example_kinematics",
+        "peekOfCode": "j1_3 = R0_1.transpose() * j\nsimplify(j1_3)\n#%% Calculate determinant\ndet_j1_3 = simplify(j1_3.det())\ndet_j1_3\n#%% Calculate torques for specific configurations\n# Define force vector\nf = Matrix([0, 1.5, -4.5])\n# Configuration 1: q1 = π/2, q2 = 0, q3 = 3, l1 = 0.5\nj_0 = j.subs({q1: pi/2, q2: 0, q3: 3, l1: 0.5})",
+        "detail": "robotics_lib.examples.example_kinematics",
+        "documentation": {}
+    },
+    {
+        "label": "det_j1_3",
+        "kind": 5,
+        "importPath": "robotics_lib.examples.example_kinematics",
+        "description": "robotics_lib.examples.example_kinematics",
+        "peekOfCode": "det_j1_3 = simplify(j1_3.det())\ndet_j1_3\n#%% Calculate torques for specific configurations\n# Define force vector\nf = Matrix([0, 1.5, -4.5])\n# Configuration 1: q1 = π/2, q2 = 0, q3 = 3, l1 = 0.5\nj_0 = j.subs({q1: pi/2, q2: 0, q3: 3, l1: 0.5})\ntau_0 = -j_0 * f\ntau_0.evalf()\n# Configuration 2: q1 = 0, q2 = π/2, q3 = 0, l1 = 0.5",
+        "detail": "robotics_lib.examples.example_kinematics",
+        "documentation": {}
+    },
+    {
+        "label": "f",
+        "kind": 5,
+        "importPath": "robotics_lib.examples.example_kinematics",
+        "description": "robotics_lib.examples.example_kinematics",
+        "peekOfCode": "f = Matrix([0, 1.5, -4.5])\n# Configuration 1: q1 = π/2, q2 = 0, q3 = 3, l1 = 0.5\nj_0 = j.subs({q1: pi/2, q2: 0, q3: 3, l1: 0.5})\ntau_0 = -j_0 * f\ntau_0.evalf()\n# Configuration 2: q1 = 0, q2 = π/2, q3 = 0, l1 = 0.5\nj_s = j.subs({q1: 0, q2: pi/2, q3: 0, l1: 0.5})\ntau_s = -j_s * f\ntau_s.evalf()\n#%% Visualize results",
+        "detail": "robotics_lib.examples.example_kinematics",
+        "documentation": {}
+    },
+    {
+        "label": "j_0",
+        "kind": 5,
+        "importPath": "robotics_lib.examples.example_kinematics",
+        "description": "robotics_lib.examples.example_kinematics",
+        "peekOfCode": "j_0 = j.subs({q1: pi/2, q2: 0, q3: 3, l1: 0.5})\ntau_0 = -j_0 * f\ntau_0.evalf()\n# Configuration 2: q1 = 0, q2 = π/2, q3 = 0, l1 = 0.5\nj_s = j.subs({q1: 0, q2: pi/2, q3: 0, l1: 0.5})\ntau_s = -j_s * f\ntau_s.evalf()\n#%% Visualize results\nplt.style.use('seaborn')\nplt.figure(figsize=(12, 8))",
+        "detail": "robotics_lib.examples.example_kinematics",
+        "documentation": {}
+    },
+    {
+        "label": "tau_0",
+        "kind": 5,
+        "importPath": "robotics_lib.examples.example_kinematics",
+        "description": "robotics_lib.examples.example_kinematics",
+        "peekOfCode": "tau_0 = -j_0 * f\ntau_0.evalf()\n# Configuration 2: q1 = 0, q2 = π/2, q3 = 0, l1 = 0.5\nj_s = j.subs({q1: 0, q2: pi/2, q3: 0, l1: 0.5})\ntau_s = -j_s * f\ntau_s.evalf()\n#%% Visualize results\nplt.style.use('seaborn')\nplt.figure(figsize=(12, 8))\n# Calculate torques for different q1 values",
+        "detail": "robotics_lib.examples.example_kinematics",
+        "documentation": {}
+    },
+    {
+        "label": "j_s",
+        "kind": 5,
+        "importPath": "robotics_lib.examples.example_kinematics",
+        "description": "robotics_lib.examples.example_kinematics",
+        "peekOfCode": "j_s = j.subs({q1: 0, q2: pi/2, q3: 0, l1: 0.5})\ntau_s = -j_s * f\ntau_s.evalf()\n#%% Visualize results\nplt.style.use('seaborn')\nplt.figure(figsize=(12, 8))\n# Calculate torques for different q1 values\nq1_vals = np.linspace(-pi/2, pi/2, 100)\ntorques = []\nfor q1_val in q1_vals:",
+        "detail": "robotics_lib.examples.example_kinematics",
+        "documentation": {}
+    },
+    {
+        "label": "tau_s",
+        "kind": 5,
+        "importPath": "robotics_lib.examples.example_kinematics",
+        "description": "robotics_lib.examples.example_kinematics",
+        "peekOfCode": "tau_s = -j_s * f\ntau_s.evalf()\n#%% Visualize results\nplt.style.use('seaborn')\nplt.figure(figsize=(12, 8))\n# Calculate torques for different q1 values\nq1_vals = np.linspace(-pi/2, pi/2, 100)\ntorques = []\nfor q1_val in q1_vals:\n    j_val = j.subs({q1: q1_val, q2: 0, q3: 0, l1: 0.5})",
+        "detail": "robotics_lib.examples.example_kinematics",
+        "documentation": {}
+    },
+    {
+        "label": "q1_vals",
+        "kind": 5,
+        "importPath": "robotics_lib.examples.example_kinematics",
+        "description": "robotics_lib.examples.example_kinematics",
+        "peekOfCode": "q1_vals = np.linspace(-pi/2, pi/2, 100)\ntorques = []\nfor q1_val in q1_vals:\n    j_val = j.subs({q1: q1_val, q2: 0, q3: 0, l1: 0.5})\n    tau = -j_val * f\n    torques.append([float(tau[i].evalf()) for i in range(3)])\ntorques = np.array(torques)\n# Create plot\nplt.plot(q1_vals, torques[:, 0], label='τ1', linewidth=2)\nplt.plot(q1_vals, torques[:, 1], label='τ2', linewidth=2)",
+        "detail": "robotics_lib.examples.example_kinematics",
+        "documentation": {}
+    },
+    {
+        "label": "torques",
+        "kind": 5,
+        "importPath": "robotics_lib.examples.example_kinematics",
+        "description": "robotics_lib.examples.example_kinematics",
+        "peekOfCode": "torques = []\nfor q1_val in q1_vals:\n    j_val = j.subs({q1: q1_val, q2: 0, q3: 0, l1: 0.5})\n    tau = -j_val * f\n    torques.append([float(tau[i].evalf()) for i in range(3)])\ntorques = np.array(torques)\n# Create plot\nplt.plot(q1_vals, torques[:, 0], label='τ1', linewidth=2)\nplt.plot(q1_vals, torques[:, 1], label='τ2', linewidth=2)\nplt.plot(q1_vals, torques[:, 2], label='τ3', linewidth=2)",
+        "detail": "robotics_lib.examples.example_kinematics",
+        "documentation": {}
+    },
+    {
+        "label": "torques",
+        "kind": 5,
+        "importPath": "robotics_lib.examples.example_kinematics",
+        "description": "robotics_lib.examples.example_kinematics",
+        "peekOfCode": "torques = np.array(torques)\n# Create plot\nplt.plot(q1_vals, torques[:, 0], label='τ1', linewidth=2)\nplt.plot(q1_vals, torques[:, 1], label='τ2', linewidth=2)\nplt.plot(q1_vals, torques[:, 2], label='τ3', linewidth=2)\nplt.grid(True, alpha=0.3)\nplt.xlabel('Joint angle q1 (rad)', fontsize=12)\nplt.ylabel('Torque (N⋅m)', fontsize=12)\nplt.title('Joint Torques vs q1', fontsize=14, pad=20)\nplt.legend(fontsize=10)",
+        "detail": "robotics_lib.examples.example_kinematics",
+        "documentation": {}
+    },
+    {
+        "label": "dh_matrix",
+        "kind": 2,
+        "importPath": "robotics_lib.kinematics",
+        "description": "robotics_lib.kinematics",
+        "peekOfCode": "def dh_matrix(dh_table):\n    \"\"\"\n    Calculate the DH transformation matrix for robot kinematics.\n    Parameters:\n    dh_table: sympy Matrix of shape (n,4)\n           Each row contains [alpha, a, d, theta] parameters\n    Returns:\n    T: The final transformation matrix (product of all individual transformations)\n    A: List of individual transformation matrices\n    \"\"\"",
+        "detail": "robotics_lib.kinematics",
+        "documentation": {}
+    },
+    {
+        "label": "get_f_r",
+        "kind": 2,
+        "importPath": "robotics_lib.kinematics",
+        "description": "robotics_lib.kinematics",
+        "peekOfCode": "def get_f_r(T):\n    \"\"\"\n    Get the forward kinematics mapping from joint space to Cartesian space.\n    Parameters:\n    T: sympy Matrix\n       Homogeneous transformation matrix (symbolic)\n    Returns:\n    f_r: sympy Matrix\n         Forward kinematics mapping [x, y, z, alpha_z]\n    \"\"\"",
+        "detail": "robotics_lib.kinematics",
+        "documentation": {}
+    },
+    {
+        "label": "get_rotation_mat",
+        "kind": 2,
+        "importPath": "robotics_lib.kinematics",
+        "description": "robotics_lib.kinematics",
+        "peekOfCode": "def get_rotation_mat(T):\n    \"\"\"\n    Extract the rotation matrix from a homogeneous transformation matrix.\n    Parameters:\n    T: sympy Matrix (4x4)\n       Homogeneous transformation matrix\n    Returns:\n    R: sympy Matrix (3x3)\n       Rotation matrix\n    \"\"\"",
+        "detail": "robotics_lib.kinematics",
+        "documentation": {}
+    }
+]
