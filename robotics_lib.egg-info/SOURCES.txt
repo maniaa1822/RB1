@@ -1,0 +1,9 @@
+setup.py
+robotics_lib/__init__.py
+robotics_lib/geometric.py
+robotics_lib/kinematics.py
+robotics_lib.egg-info/PKG-INFO
+robotics_lib.egg-info/SOURCES.txt
+robotics_lib.egg-info/dependency_links.txt
+robotics_lib.egg-info/requires.txt
+robotics_lib.egg-info/top_level.txt

@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: robotics_lib
+Version: 0.1.0
+Summary: A robotics library for kinematics and dynamics
+Author: Your Name
+Author-email: your.email@example.com
+Keywords: robotics,kinematics,dynamics
+Requires-Dist: numpy
+Requires-Dist: sympy
+Requires-Dist: matplotlib
+Requires-Dist: scipy

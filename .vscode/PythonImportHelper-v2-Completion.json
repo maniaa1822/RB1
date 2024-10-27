@@ -1,5 +1,14 @@
 [
     {
+        "label": "sympy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sympy",
+        "description": "sympy",
+        "detail": "sympy",
+        "documentation": {}
+    },
+    {
         "label": "symbols",
         "importPath": "sympy",
         "description": "sympy",
@@ -25,6 +34,174 @@
     },
     {
         "label": "simplify",
+        "importPath": "sympy",
+        "description": "sympy",
+        "isExtraImport": true,
+        "detail": "sympy",
+        "documentation": {}
+    },
+    {
+        "label": "symbols",
+        "importPath": "sympy",
+        "description": "sympy",
+        "isExtraImport": true,
+        "detail": "sympy",
+        "documentation": {}
+    },
+    {
+        "label": "Matrix",
+        "importPath": "sympy",
+        "description": "sympy",
+        "isExtraImport": true,
+        "detail": "sympy",
+        "documentation": {}
+    },
+    {
+        "label": "pi",
+        "importPath": "sympy",
+        "description": "sympy",
+        "isExtraImport": true,
+        "detail": "sympy",
+        "documentation": {}
+    },
+    {
+        "label": "cos",
+        "importPath": "sympy",
+        "description": "sympy",
+        "isExtraImport": true,
+        "detail": "sympy",
+        "documentation": {}
+    },
+    {
+        "label": "sin",
+        "importPath": "sympy",
+        "description": "sympy",
+        "isExtraImport": true,
+        "detail": "sympy",
+        "documentation": {}
+    },
+    {
+        "label": "simplify",
+        "importPath": "sympy",
+        "description": "sympy",
+        "isExtraImport": true,
+        "detail": "sympy",
+        "documentation": {}
+    },
+    {
+        "label": "eye",
+        "importPath": "sympy",
+        "description": "sympy",
+        "isExtraImport": true,
+        "detail": "sympy",
+        "documentation": {}
+    },
+    {
+        "label": "sqrt",
+        "importPath": "sympy",
+        "description": "sympy",
+        "isExtraImport": true,
+        "detail": "sympy",
+        "documentation": {}
+    },
+    {
+        "label": "symbols",
+        "importPath": "sympy",
+        "description": "sympy",
+        "isExtraImport": true,
+        "detail": "sympy",
+        "documentation": {}
+    },
+    {
+        "label": "pi",
+        "importPath": "sympy",
+        "description": "sympy",
+        "isExtraImport": true,
+        "detail": "sympy",
+        "documentation": {}
+    },
+    {
+        "label": "Matrix",
+        "importPath": "sympy",
+        "description": "sympy",
+        "isExtraImport": true,
+        "detail": "sympy",
+        "documentation": {}
+    },
+    {
+        "label": "simplify",
+        "importPath": "sympy",
+        "description": "sympy",
+        "isExtraImport": true,
+        "detail": "sympy",
+        "documentation": {}
+    },
+    {
+        "label": "Matrix",
+        "importPath": "sympy",
+        "description": "sympy",
+        "isExtraImport": true,
+        "detail": "sympy",
+        "documentation": {}
+    },
+    {
+        "label": "cos",
+        "importPath": "sympy",
+        "description": "sympy",
+        "isExtraImport": true,
+        "detail": "sympy",
+        "documentation": {}
+    },
+    {
+        "label": "sin",
+        "importPath": "sympy",
+        "description": "sympy",
+        "isExtraImport": true,
+        "detail": "sympy",
+        "documentation": {}
+    },
+    {
+        "label": "simplify",
+        "importPath": "sympy",
+        "description": "sympy",
+        "isExtraImport": true,
+        "detail": "sympy",
+        "documentation": {}
+    },
+    {
+        "label": "eye",
+        "importPath": "sympy",
+        "description": "sympy",
+        "isExtraImport": true,
+        "detail": "sympy",
+        "documentation": {}
+    },
+    {
+        "label": "atan2",
+        "importPath": "sympy",
+        "description": "sympy",
+        "isExtraImport": true,
+        "detail": "sympy",
+        "documentation": {}
+    },
+    {
+        "label": "sqrt",
+        "importPath": "sympy",
+        "description": "sympy",
+        "isExtraImport": true,
+        "detail": "sympy",
+        "documentation": {}
+    },
+    {
+        "label": "acos",
+        "importPath": "sympy",
+        "description": "sympy",
+        "isExtraImport": true,
+        "detail": "sympy",
+        "documentation": {}
+    },
+    {
+        "label": "asin",
         "importPath": "sympy",
         "description": "sympy",
         "isExtraImport": true,
@@ -72,6 +249,38 @@
         "documentation": {}
     },
     {
+        "label": "zeros",
+        "importPath": "sympy",
+        "description": "sympy",
+        "isExtraImport": true,
+        "detail": "sympy",
+        "documentation": {}
+    },
+    {
+        "label": "dh_matrix",
+        "importPath": "robotics_lib.kinematics",
+        "description": "robotics_lib.kinematics",
+        "isExtraImport": true,
+        "detail": "robotics_lib.kinematics",
+        "documentation": {}
+    },
+    {
+        "label": "get_f_r",
+        "importPath": "robotics_lib.kinematics",
+        "description": "robotics_lib.kinematics",
+        "isExtraImport": true,
+        "detail": "robotics_lib.kinematics",
+        "documentation": {}
+    },
+    {
+        "label": "geometric_jacobian",
+        "importPath": "robotics_lib.kinematics",
+        "description": "robotics_lib.kinematics",
+        "isExtraImport": true,
+        "detail": "robotics_lib.kinematics",
+        "documentation": {}
+    },
+    {
         "label": "dh_matrix",
         "importPath": "robotics_lib.kinematics",
         "description": "robotics_lib.kinematics",
@@ -111,6 +320,351 @@
         "importPath": "matplotlib.pyplot",
         "description": "matplotlib.pyplot",
         "detail": "matplotlib.pyplot",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "robotics_lib.geometric",
+        "description": "robotics_lib.geometric",
+        "isExtraImport": true,
+        "detail": "robotics_lib.geometric",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Union",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Tuple",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "setup",
+        "importPath": "setuptools",
+        "description": "setuptools",
+        "isExtraImport": true,
+        "detail": "setuptools",
+        "documentation": {}
+    },
+    {
+        "label": "find_packages",
+        "importPath": "setuptools",
+        "description": "setuptools",
+        "isExtraImport": true,
+        "detail": "setuptools",
+        "documentation": {}
+    },
+    {
+        "label": "l1",
+        "kind": 5,
+        "importPath": "robotics_lib.examples.example_geometric_jacobian",
+        "description": "robotics_lib.examples.example_geometric_jacobian",
+        "peekOfCode": "l1 = symbols('l1', real=True)\n#%% Create DH parameter table for a RRR robot\n# Example: 3-DOF robot with all revolute joints\ndh_table = Matrix([\n    [0,      l1,     0,  q1],           # alpha, a, d, theta for joint 1\n    [pi/2,   0,      0,  q2 + pi/2],    # alpha, a, d, theta for joint 2\n    [0,      0,      q3, 0]             # alpha, a, d, theta for joint 3\n])\ndh_table\n#%% Calculate transformation matrices and forward kinematics",
+        "detail": "robotics_lib.examples.example_geometric_jacobian",
+        "documentation": {}
+    },
+    {
+        "label": "dh_table",
+        "kind": 5,
+        "importPath": "robotics_lib.examples.example_geometric_jacobian",
+        "description": "robotics_lib.examples.example_geometric_jacobian",
+        "peekOfCode": "dh_table = Matrix([\n    [0,      l1,     0,  q1],           # alpha, a, d, theta for joint 1\n    [pi/2,   0,      0,  q2 + pi/2],    # alpha, a, d, theta for joint 2\n    [0,      0,      q3, 0]             # alpha, a, d, theta for joint 3\n])\ndh_table\n#%% Calculate transformation matrices and forward kinematics\nT, A = dh_matrix(dh_table)\nf_r_3D = get_f_r(T)\nsimplify(f_r_3D)",
+        "detail": "robotics_lib.examples.example_geometric_jacobian",
+        "documentation": {}
+    },
+    {
+        "label": "f_r_3D",
+        "kind": 5,
+        "importPath": "robotics_lib.examples.example_geometric_jacobian",
+        "description": "robotics_lib.examples.example_geometric_jacobian",
+        "peekOfCode": "f_r_3D = get_f_r(T)\nsimplify(f_r_3D)\n#%% Calculate geometric Jacobian\n# Define joint sequence ('r' for revolute, 'p' for prismatic)\nsequence = 'rrp'  # our robot has two revolute joints and one prismatic\n# Define joint variables\nq_vars = Matrix([q1, q2, q3])\n#%% Calculate geometric Jacobian\nJl, Ja = geometric_jacobian(f_r_3D, sequence, q_vars, dh_table)\n#%% Display linear part",
+        "detail": "robotics_lib.examples.example_geometric_jacobian",
+        "documentation": {}
+    },
+    {
+        "label": "sequence",
+        "kind": 5,
+        "importPath": "robotics_lib.examples.example_geometric_jacobian",
+        "description": "robotics_lib.examples.example_geometric_jacobian",
+        "peekOfCode": "sequence = 'rrp'  # our robot has two revolute joints and one prismatic\n# Define joint variables\nq_vars = Matrix([q1, q2, q3])\n#%% Calculate geometric Jacobian\nJl, Ja = geometric_jacobian(f_r_3D, sequence, q_vars, dh_table)\n#%% Display linear part\nprint(\"Linear part of geometric Jacobian:\")\nsimplify(Jl)\n#%% Display angular part\nprint(\"\\nAngular part of geometric Jacobian:\")",
+        "detail": "robotics_lib.examples.example_geometric_jacobian",
+        "documentation": {}
+    },
+    {
+        "label": "q_vars",
+        "kind": 5,
+        "importPath": "robotics_lib.examples.example_geometric_jacobian",
+        "description": "robotics_lib.examples.example_geometric_jacobian",
+        "peekOfCode": "q_vars = Matrix([q1, q2, q3])\n#%% Calculate geometric Jacobian\nJl, Ja = geometric_jacobian(f_r_3D, sequence, q_vars, dh_table)\n#%% Display linear part\nprint(\"Linear part of geometric Jacobian:\")\nsimplify(Jl)\n#%% Display angular part\nprint(\"\\nAngular part of geometric Jacobian:\")\nsimplify(Ja)\n#%% Verify Jacobian at specific configuration",
+        "detail": "robotics_lib.examples.example_geometric_jacobian",
+        "documentation": {}
+    },
+    {
+        "label": "config",
+        "kind": 5,
+        "importPath": "robotics_lib.examples.example_geometric_jacobian",
+        "description": "robotics_lib.examples.example_geometric_jacobian",
+        "peekOfCode": "config = {q1: pi/4, q2: pi/3, q3: 0.5, l1: 1.0}\n# Calculate Jacobian at this configuration\nJl_num = Jl.subs(config)\nJa_num = Ja.subs(config)\n# Combine into full geometric Jacobian\nJ_geometric = Matrix.vstack(Jl_num, Ja_num)\n# Display numerical result\nJ_geometric.evalf()",
+        "detail": "robotics_lib.examples.example_geometric_jacobian",
+        "documentation": {}
+    },
+    {
+        "label": "Jl_num",
+        "kind": 5,
+        "importPath": "robotics_lib.examples.example_geometric_jacobian",
+        "description": "robotics_lib.examples.example_geometric_jacobian",
+        "peekOfCode": "Jl_num = Jl.subs(config)\nJa_num = Ja.subs(config)\n# Combine into full geometric Jacobian\nJ_geometric = Matrix.vstack(Jl_num, Ja_num)\n# Display numerical result\nJ_geometric.evalf()",
+        "detail": "robotics_lib.examples.example_geometric_jacobian",
+        "documentation": {}
+    },
+    {
+        "label": "Ja_num",
+        "kind": 5,
+        "importPath": "robotics_lib.examples.example_geometric_jacobian",
+        "description": "robotics_lib.examples.example_geometric_jacobian",
+        "peekOfCode": "Ja_num = Ja.subs(config)\n# Combine into full geometric Jacobian\nJ_geometric = Matrix.vstack(Jl_num, Ja_num)\n# Display numerical result\nJ_geometric.evalf()",
+        "detail": "robotics_lib.examples.example_geometric_jacobian",
+        "documentation": {}
+    },
+    {
+        "label": "J_geometric",
+        "kind": 5,
+        "importPath": "robotics_lib.examples.example_geometric_jacobian",
+        "description": "robotics_lib.examples.example_geometric_jacobian",
+        "peekOfCode": "J_geometric = Matrix.vstack(Jl_num, Ja_num)\n# Display numerical result\nJ_geometric.evalf()",
+        "detail": "robotics_lib.examples.example_geometric_jacobian",
+        "documentation": {}
+    },
+    {
+        "label": "Rx",
+        "kind": 5,
+        "importPath": "robotics_lib.examples.example_geometry",
+        "description": "robotics_lib.examples.example_geometry",
+        "peekOfCode": "Rx = elem_rot_mat('x', alpha)\nRy = elem_rot_mat('y', beta)\nRz = elem_rot_mat('z', theta)\n# Display symbolic results\n{\n    'Rx': Rx,\n    'Ry': Ry,\n    'Rz': Rz\n}\n# %%",
+        "detail": "robotics_lib.examples.example_geometry",
+        "documentation": {}
+    },
+    {
+        "label": "Ry",
+        "kind": 5,
+        "importPath": "robotics_lib.examples.example_geometry",
+        "description": "robotics_lib.examples.example_geometry",
+        "peekOfCode": "Ry = elem_rot_mat('y', beta)\nRz = elem_rot_mat('z', theta)\n# Display symbolic results\n{\n    'Rx': Rx,\n    'Ry': Ry,\n    'Rz': Rz\n}\n# %%\n# Numerical example: evaluate for specific angles",
+        "detail": "robotics_lib.examples.example_geometry",
+        "documentation": {}
+    },
+    {
+        "label": "Rz",
+        "kind": 5,
+        "importPath": "robotics_lib.examples.example_geometry",
+        "description": "robotics_lib.examples.example_geometry",
+        "peekOfCode": "Rz = elem_rot_mat('z', theta)\n# Display symbolic results\n{\n    'Rx': Rx,\n    'Ry': Ry,\n    'Rz': Rz\n}\n# %%\n# Numerical example: evaluate for specific angles\nangles_rad = {alpha: pi/4, beta: pi/3, theta: pi/6}",
+        "detail": "robotics_lib.examples.example_geometry",
+        "documentation": {}
+    },
+    {
+        "label": "angles_rad",
+        "kind": 5,
+        "importPath": "robotics_lib.examples.example_geometry",
+        "description": "robotics_lib.examples.example_geometry",
+        "peekOfCode": "angles_rad = {alpha: pi/4, beta: pi/3, theta: pi/6}\n{\n    'Rx_num': Rx.subs(angles_rad).evalf(),\n    'Ry_num': Ry.subs(angles_rad).evalf(),\n    'Rz_num': Rz.subs(angles_rad).evalf()\n}\n# %% [markdown]\n# ## 2. Euler Rotation Matrices (euler_rotation)\n# Examples of different Euler angle sequences.\n# %%",
+        "detail": "robotics_lib.examples.example_geometry",
+        "documentation": {}
+    },
+    {
+        "label": "R_xyz",
+        "kind": 5,
+        "importPath": "robotics_lib.examples.example_geometry",
+        "description": "robotics_lib.examples.example_geometry",
+        "peekOfCode": "R_xyz = euler_rotation('xyz', [phi, theta, psi])\nR_zyz = euler_rotation('zyz', [phi, theta, psi])\nR_zyx = euler_rotation('zyx', [phi, theta, psi])\n# Display symbolic results\n{\n    'xyz_sequence': simplify(R_xyz),\n    'zyz_sequence': simplify(R_zyz),\n    'zyx_sequence': simplify(R_zyx)\n}\n# %%",
+        "detail": "robotics_lib.examples.example_geometry",
+        "documentation": {}
+    },
+    {
+        "label": "R_zyz",
+        "kind": 5,
+        "importPath": "robotics_lib.examples.example_geometry",
+        "description": "robotics_lib.examples.example_geometry",
+        "peekOfCode": "R_zyz = euler_rotation('zyz', [phi, theta, psi])\nR_zyx = euler_rotation('zyx', [phi, theta, psi])\n# Display symbolic results\n{\n    'xyz_sequence': simplify(R_xyz),\n    'zyz_sequence': simplify(R_zyz),\n    'zyx_sequence': simplify(R_zyx)\n}\n# %%\n# Numerical example",
+        "detail": "robotics_lib.examples.example_geometry",
+        "documentation": {}
+    },
+    {
+        "label": "R_zyx",
+        "kind": 5,
+        "importPath": "robotics_lib.examples.example_geometry",
+        "description": "robotics_lib.examples.example_geometry",
+        "peekOfCode": "R_zyx = euler_rotation('zyx', [phi, theta, psi])\n# Display symbolic results\n{\n    'xyz_sequence': simplify(R_xyz),\n    'zyz_sequence': simplify(R_zyz),\n    'zyx_sequence': simplify(R_zyx)\n}\n# %%\n# Numerical example\neuler_angles = {phi: pi/6, theta: pi/4, psi: pi/3}",
+        "detail": "robotics_lib.examples.example_geometry",
+        "documentation": {}
+    },
+    {
+        "label": "euler_angles",
+        "kind": 5,
+        "importPath": "robotics_lib.examples.example_geometry",
+        "description": "robotics_lib.examples.example_geometry",
+        "peekOfCode": "euler_angles = {phi: pi/6, theta: pi/4, psi: pi/3}\nR_xyz.subs(euler_angles).evalf()\n# %% [markdown]\n# ## 3. Roll-Pitch-Yaw Rotations (rpy_rotation)\n# Examples of RPY rotations with different sequences.\n# %%\n# Define symbolic RPY angles\nroll, pitch, yaw = symbols('roll pitch yaw')\n# Different RPY sequences\nR_rpy_xyz = rpy_rotation('xyz', [roll, pitch, yaw])",
+        "detail": "robotics_lib.examples.example_geometry",
+        "documentation": {}
+    },
+    {
+        "label": "R_rpy_xyz",
+        "kind": 5,
+        "importPath": "robotics_lib.examples.example_geometry",
+        "description": "robotics_lib.examples.example_geometry",
+        "peekOfCode": "R_rpy_xyz = rpy_rotation('xyz', [roll, pitch, yaw])\nR_rpy_zyx = rpy_rotation('zyx', [roll, pitch, yaw])\n# Display symbolic results\n{\n    'rpy_xyz': simplify(R_rpy_xyz),\n    'rpy_zyx': simplify(R_rpy_zyx)\n}\n# %%\n# Compare RPY with equivalent Euler rotation\n# RPY xyz is equivalent to Euler zyx with reversed angles",
+        "detail": "robotics_lib.examples.example_geometry",
+        "documentation": {}
+    },
+    {
+        "label": "R_rpy_zyx",
+        "kind": 5,
+        "importPath": "robotics_lib.examples.example_geometry",
+        "description": "robotics_lib.examples.example_geometry",
+        "peekOfCode": "R_rpy_zyx = rpy_rotation('zyx', [roll, pitch, yaw])\n# Display symbolic results\n{\n    'rpy_xyz': simplify(R_rpy_xyz),\n    'rpy_zyx': simplify(R_rpy_zyx)\n}\n# %%\n# Compare RPY with equivalent Euler rotation\n# RPY xyz is equivalent to Euler zyx with reversed angles\ndiff = simplify(R_rpy_xyz - euler_rotation('zyx', [yaw, pitch, roll]))",
+        "detail": "robotics_lib.examples.example_geometry",
+        "documentation": {}
+    },
+    {
+        "label": "diff",
+        "kind": 5,
+        "importPath": "robotics_lib.examples.example_geometry",
+        "description": "robotics_lib.examples.example_geometry",
+        "peekOfCode": "diff = simplify(R_rpy_xyz - euler_rotation('zyx', [yaw, pitch, roll]))\ndiff  # Should be zero matrix\n# %% [markdown]\n# ## 4. Elementary Rotation Matrix Inverse\n# Example of extracting rotation angle from rotation matrix.\n# %%\n# Create a symbolic rotation matrix\ntheta = symbols('theta')\nR = elem_rot_mat('z', theta)\n#%%",
+        "detail": "robotics_lib.examples.example_geometry",
+        "documentation": {}
+    },
+    {
+        "label": "theta",
+        "kind": 5,
+        "importPath": "robotics_lib.examples.example_geometry",
+        "description": "robotics_lib.examples.example_geometry",
+        "peekOfCode": "theta = symbols('theta')\nR = elem_rot_mat('z', theta)\n#%%\n# Extract the angle back\ntheta_recovered = elem_rot_mat_inverse('z', R)\n# Should return theta\nsimplify(theta_recovered)\n# %% [markdown]\n# ## 5. Euler Rotation Matrix Inverse\n# Example of extracting Euler angles from rotation matrix.",
+        "detail": "robotics_lib.examples.example_geometry",
+        "documentation": {}
+    },
+    {
+        "label": "R",
+        "kind": 5,
+        "importPath": "robotics_lib.examples.example_geometry",
+        "description": "robotics_lib.examples.example_geometry",
+        "peekOfCode": "R = elem_rot_mat('z', theta)\n#%%\n# Extract the angle back\ntheta_recovered = elem_rot_mat_inverse('z', R)\n# Should return theta\nsimplify(theta_recovered)\n# %% [markdown]\n# ## 5. Euler Rotation Matrix Inverse\n# Example of extracting Euler angles from rotation matrix.\n# %%",
+        "detail": "robotics_lib.examples.example_geometry",
+        "documentation": {}
+    },
+    {
+        "label": "theta_recovered",
+        "kind": 5,
+        "importPath": "robotics_lib.examples.example_geometry",
+        "description": "robotics_lib.examples.example_geometry",
+        "peekOfCode": "theta_recovered = elem_rot_mat_inverse('z', R)\n# Should return theta\nsimplify(theta_recovered)\n# %% [markdown]\n# ## 5. Euler Rotation Matrix Inverse\n# Example of extracting Euler angles from rotation matrix.\n# %%\n# Create a symbolic rotation matrix using Euler angles\nphi, theta, psi = symbols('phi theta psi')\nR_euler = euler_rotation('zyx', [phi, theta, psi])",
+        "detail": "robotics_lib.examples.example_geometry",
+        "documentation": {}
+    },
+    {
+        "label": "R_euler",
+        "kind": 5,
+        "importPath": "robotics_lib.examples.example_geometry",
+        "description": "robotics_lib.examples.example_geometry",
+        "peekOfCode": "R_euler = euler_rotation('zyx', [phi, theta, psi])\n# Extract angles back\nphi_rec, theta_rec, psi_rec = euler_rotation_inverse('zyx', R_euler)\n{\n    'phi': simplify(phi_rec),\n    'theta': simplify(theta_rec),\n    'psi': simplify(psi_rec)\n}\n# %% [markdown]\n# ## 6. Angle-Axis Representations",
+        "detail": "robotics_lib.examples.example_geometry",
+        "documentation": {}
+    },
+    {
+        "label": "r",
+        "kind": 5,
+        "importPath": "robotics_lib.examples.example_geometry",
+        "description": "robotics_lib.examples.example_geometry",
+        "peekOfCode": "r = Matrix([rx, ry, rz])\n# Convert from angle-axis to rotation matrix\nR_aa = angle_axis_to_rot_mat(r, alpha)\nR_aa\n# %%\n# Convert back to angle-axis representation\naxis_recovered, angle_recovered = angle_axis_from_rot_mat(R_aa)\n{\n    'recovered_axis': simplify(axis_recovered),\n    'recovered_angle': simplify(angle_recovered)",
+        "detail": "robotics_lib.examples.example_geometry",
+        "documentation": {}
+    },
+    {
+        "label": "R_aa",
+        "kind": 5,
+        "importPath": "robotics_lib.examples.example_geometry",
+        "description": "robotics_lib.examples.example_geometry",
+        "peekOfCode": "R_aa = angle_axis_to_rot_mat(r, alpha)\nR_aa\n# %%\n# Convert back to angle-axis representation\naxis_recovered, angle_recovered = angle_axis_from_rot_mat(R_aa)\n{\n    'recovered_axis': simplify(axis_recovered),\n    'recovered_angle': simplify(angle_recovered)\n}\n# %%",
+        "detail": "robotics_lib.examples.example_geometry",
+        "documentation": {}
+    },
+    {
+        "label": "subs_dict",
+        "kind": 5,
+        "importPath": "robotics_lib.examples.example_geometry",
+        "description": "robotics_lib.examples.example_geometry",
+        "peekOfCode": "subs_dict = {\n    rx: 1/sqrt(3),  # Normalized vector\n    ry: 1/sqrt(3),\n    rz: 1/sqrt(3),\n    alpha: pi/3\n}\nR_aa.subs(subs_dict).evalf()\n# %% [markdown]\n# ## 5. Homogeneous Transformations (affine_T, affine_get_translation, affine_get_R)\n# Examples of creating and manipulating homogeneous transformation matrices.",
+        "detail": "robotics_lib.examples.example_geometry",
+        "documentation": {}
+    },
+    {
+        "label": "theta",
+        "kind": 5,
+        "importPath": "robotics_lib.examples.example_geometry",
+        "description": "robotics_lib.examples.example_geometry",
+        "peekOfCode": "theta = symbols('theta')\ntx, ty, tz = symbols('tx ty tz')\n# Create rotation and translation\nR = elem_rot_mat('z', theta)\nt = Matrix([tx, ty, tz])\n# Create homogeneous transformation matrix\nT = affine_T(R, t)\nT\n# %%\n# Extract components",
+        "detail": "robotics_lib.examples.example_geometry",
+        "documentation": {}
+    },
+    {
+        "label": "R",
+        "kind": 5,
+        "importPath": "robotics_lib.examples.example_geometry",
+        "description": "robotics_lib.examples.example_geometry",
+        "peekOfCode": "R = elem_rot_mat('z', theta)\nt = Matrix([tx, ty, tz])\n# Create homogeneous transformation matrix\nT = affine_T(R, t)\nT\n# %%\n# Extract components\n{\n    'rotation_matrix': affine_get_R(T),\n    'translation_vector': affine_get_translation(T)",
+        "detail": "robotics_lib.examples.example_geometry",
+        "documentation": {}
+    },
+    {
+        "label": "t",
+        "kind": 5,
+        "importPath": "robotics_lib.examples.example_geometry",
+        "description": "robotics_lib.examples.example_geometry",
+        "peekOfCode": "t = Matrix([tx, ty, tz])\n# Create homogeneous transformation matrix\nT = affine_T(R, t)\nT\n# %%\n# Extract components\n{\n    'rotation_matrix': affine_get_R(T),\n    'translation_vector': affine_get_translation(T)\n}",
+        "detail": "robotics_lib.examples.example_geometry",
+        "documentation": {}
+    },
+    {
+        "label": "T",
+        "kind": 5,
+        "importPath": "robotics_lib.examples.example_geometry",
+        "description": "robotics_lib.examples.example_geometry",
+        "peekOfCode": "T = affine_T(R, t)\nT\n# %%\n# Extract components\n{\n    'rotation_matrix': affine_get_R(T),\n    'translation_vector': affine_get_translation(T)\n}\n# %%\n# Numerical example",
+        "detail": "robotics_lib.examples.example_geometry",
+        "documentation": {}
+    },
+    {
+        "label": "subs_dict",
+        "kind": 5,
+        "importPath": "robotics_lib.examples.example_geometry",
+        "description": "robotics_lib.examples.example_geometry",
+        "peekOfCode": "subs_dict = {theta: pi/4, tx: 1, ty: 2, tz: 3}\nT_num = T.subs(subs_dict).evalf()\n{\n    'full_transform': T_num,\n    'extracted_rotation': affine_get_R(T_num).evalf(),\n    'extracted_translation': affine_get_translation(T_num).evalf()\n}",
+        "detail": "robotics_lib.examples.example_geometry",
+        "documentation": {}
+    },
+    {
+        "label": "T_num",
+        "kind": 5,
+        "importPath": "robotics_lib.examples.example_geometry",
+        "description": "robotics_lib.examples.example_geometry",
+        "peekOfCode": "T_num = T.subs(subs_dict).evalf()\n{\n    'full_transform': T_num,\n    'extracted_rotation': affine_get_R(T_num).evalf(),\n    'extracted_translation': affine_get_translation(T_num).evalf()\n}",
+        "detail": "robotics_lib.examples.example_geometry",
         "documentation": {}
     },
     {
@@ -267,6 +821,105 @@
         "documentation": {}
     },
     {
+        "label": "elem_rot_mat",
+        "kind": 2,
+        "importPath": "robotics_lib.geometric",
+        "description": "robotics_lib.geometric",
+        "peekOfCode": "def elem_rot_mat(axis: str, angle: sp.Symbol) -> sp.Matrix:\n    \"\"\"\n    Create an elementary rotation matrix about a specified axis.\n    Parameters:\n    -----------\n    axis: str\n        The axis about which to rotate ('x', 'y', or 'z')\n    angle: sp.Symbol\n        The angle of rotation (symbolic)\n    Returns:",
+        "detail": "robotics_lib.geometric",
+        "documentation": {}
+    },
+    {
+        "label": "euler_rotation",
+        "kind": 2,
+        "importPath": "robotics_lib.geometric",
+        "description": "robotics_lib.geometric",
+        "peekOfCode": "def euler_rotation(sequence: str, angles: List[sp.Symbol]) -> sp.Matrix:\n    \"\"\"\n    Compute Euler rotation matrix for given sequence and angles.\n    Parameters:\n    -----------\n    sequence: str\n        String specifying rotation sequence (e.g., 'xyz', 'zyx')\n    angles: list\n        List of three symbolic angles\n    Returns:",
+        "detail": "robotics_lib.geometric",
+        "documentation": {}
+    },
+    {
+        "label": "rpy_rotation",
+        "kind": 2,
+        "importPath": "robotics_lib.geometric",
+        "description": "robotics_lib.geometric",
+        "peekOfCode": "def rpy_rotation(sequence: str, angles: List[sp.Symbol]) -> sp.Matrix:\n    \"\"\"\n    Compute Roll-Pitch-Yaw rotation matrix for given sequence and angles.\n    RPY rotations work about fixed axes (unlike Euler rotations which work about moving axes).\n    Parameters:\n    -----------\n    sequence: str\n        String specifying rotation sequence (e.g., 'xyz', 'zyx')\n    angles: list\n        List of three symbolic angles",
+        "detail": "robotics_lib.geometric",
+        "documentation": {}
+    },
+    {
+        "label": "angle_axis_rotation_direct",
+        "kind": 2,
+        "importPath": "robotics_lib.geometric",
+        "description": "robotics_lib.geometric",
+        "peekOfCode": "def angle_axis_rotation_direct(r: sp.Matrix, theta: sp.Symbol) -> sp.Matrix:\n    \"\"\"\n    Compute rotation matrix from axis-angle representation (Rodrigues' formula).\n    Parameters:\n    -----------\n    r: sp.Matrix\n        Unit vector specifying rotation axis\n    theta: sp.Symbol\n        Rotation angle\n    Returns:",
+        "detail": "robotics_lib.geometric",
+        "documentation": {}
+    },
+    {
+        "label": "affine_T",
+        "kind": 2,
+        "importPath": "robotics_lib.geometric",
+        "description": "robotics_lib.geometric",
+        "peekOfCode": "def affine_T(rotation_matrix: sp.Matrix, translation: sp.Matrix) -> sp.Matrix:\n    \"\"\"\n    Create homogeneous transformation matrix from rotation matrix and translation vector.\n    Parameters:\n    -----------\n    rotation_matrix: sp.Matrix\n        3x3 rotation matrix\n    translation: sp.Matrix\n        3x1 translation vector\n    Returns:",
+        "detail": "robotics_lib.geometric",
+        "documentation": {}
+    },
+    {
+        "label": "affine_get_translation",
+        "kind": 2,
+        "importPath": "robotics_lib.geometric",
+        "description": "robotics_lib.geometric",
+        "peekOfCode": "def affine_get_translation(T: sp.Matrix) -> sp.Matrix:\n    \"\"\"Extract translation vector from homogeneous transformation matrix.\"\"\"\n    return T[:3, 3]\ndef affine_get_R(T: sp.Matrix) -> sp.Matrix:\n    \"\"\"Extract rotation matrix from homogeneous transformation matrix.\"\"\"\n    return T[:3, :3]\ndef elem_rot_mat_inverse(axis: str, rotation_matrix: sp.Matrix) -> sp.Expr:\n    \"\"\"\n    Extract the rotation angle about a given axis from a rotation matrix.\n    Parameters:",
+        "detail": "robotics_lib.geometric",
+        "documentation": {}
+    },
+    {
+        "label": "affine_get_R",
+        "kind": 2,
+        "importPath": "robotics_lib.geometric",
+        "description": "robotics_lib.geometric",
+        "peekOfCode": "def affine_get_R(T: sp.Matrix) -> sp.Matrix:\n    \"\"\"Extract rotation matrix from homogeneous transformation matrix.\"\"\"\n    return T[:3, :3]\ndef elem_rot_mat_inverse(axis: str, rotation_matrix: sp.Matrix) -> sp.Expr:\n    \"\"\"\n    Extract the rotation angle about a given axis from a rotation matrix.\n    Parameters:\n    -----------\n    axis: str\n        The axis of rotation ('x', 'y', or 'z')",
+        "detail": "robotics_lib.geometric",
+        "documentation": {}
+    },
+    {
+        "label": "elem_rot_mat_inverse",
+        "kind": 2,
+        "importPath": "robotics_lib.geometric",
+        "description": "robotics_lib.geometric",
+        "peekOfCode": "def elem_rot_mat_inverse(axis: str, rotation_matrix: sp.Matrix) -> sp.Expr:\n    \"\"\"\n    Extract the rotation angle about a given axis from a rotation matrix.\n    Parameters:\n    -----------\n    axis: str\n        The axis of rotation ('x', 'y', or 'z')\n    rotation_matrix: sp.Matrix\n        3x3 rotation matrix\n    Returns:",
+        "detail": "robotics_lib.geometric",
+        "documentation": {}
+    },
+    {
+        "label": "euler_rotation_inverse",
+        "kind": 2,
+        "importPath": "robotics_lib.geometric",
+        "description": "robotics_lib.geometric",
+        "peekOfCode": "def euler_rotation_inverse(sequence: str, rotation_matrix: sp.Matrix, positive_solution: bool = True) -> Tuple[sp.Expr, sp.Expr, sp.Expr]:\n    \"\"\"\n    Extract Euler angles from a rotation matrix.\n    Parameters:\n    -----------\n    sequence: str\n        String specifying rotation sequence (e.g., 'xyz', 'zyx')\n    rotation_matrix: sp.Matrix\n        3x3 rotation matrix\n    positive_solution: bool",
+        "detail": "robotics_lib.geometric",
+        "documentation": {}
+    },
+    {
+        "label": "angle_axis_to_rot_mat",
+        "kind": 2,
+        "importPath": "robotics_lib.geometric",
+        "description": "robotics_lib.geometric",
+        "peekOfCode": "def angle_axis_to_rot_mat(axis: sp.Matrix, angle: sp.Symbol) -> sp.Matrix:\n    \"\"\"\n    Convert angle-axis representation to rotation matrix using Rodrigues' formula.\n    Parameters:\n    -----------\n    axis: sp.Matrix\n        3x1 unit vector representing rotation axis\n    angle: sp.Symbol\n        Rotation angle\n    Returns:",
+        "detail": "robotics_lib.geometric",
+        "documentation": {}
+    },
+    {
+        "label": "angle_axis_from_rot_mat",
+        "kind": 2,
+        "importPath": "robotics_lib.geometric",
+        "description": "robotics_lib.geometric",
+        "peekOfCode": "def angle_axis_from_rot_mat(R: sp.Matrix) -> Tuple[sp.Matrix, sp.Expr]:\n    \"\"\"\n    Extract axis and angle from rotation matrix.\n    Parameters:\n    -----------\n    R: sp.Matrix\n        3x3 rotation matrix\n    Returns:\n    --------\n    axis: sp.Matrix",
+        "detail": "robotics_lib.geometric",
+        "documentation": {}
+    },
+    {
         "label": "dh_matrix",
         "kind": 2,
         "importPath": "robotics_lib.kinematics",
@@ -290,6 +943,15 @@
         "importPath": "robotics_lib.kinematics",
         "description": "robotics_lib.kinematics",
         "peekOfCode": "def get_rotation_mat(T):\n    \"\"\"\n    Extract the rotation matrix from a homogeneous transformation matrix.\n    Parameters:\n    T: sympy Matrix (4x4)\n       Homogeneous transformation matrix\n    Returns:\n    R: sympy Matrix (3x3)\n       Rotation matrix\n    \"\"\"",
+        "detail": "robotics_lib.kinematics",
+        "documentation": {}
+    },
+    {
+        "label": "geometric_jacobian",
+        "kind": 2,
+        "importPath": "robotics_lib.kinematics",
+        "description": "robotics_lib.kinematics",
+        "peekOfCode": "def geometric_jacobian(f_r, sequence, q_in, dh_params):\n    \"\"\"\n    Calculate the geometric Jacobian for a robot manipulator.\n    Parameters:\n    f_r: sympy Matrix\n        Forward kinematics mapping [x, y, z, alpha_z]\n    sequence: str\n        A string containing the sequence of 'r's and 'p's for revolute and prismatic joints\n    q_in: sympy Matrix\n        Column vector of joint variables",
         "detail": "robotics_lib.kinematics",
         "documentation": {}
     }
