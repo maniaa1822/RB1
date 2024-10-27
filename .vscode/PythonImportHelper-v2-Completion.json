@@ -537,14 +537,6 @@
         "documentation": {}
     },
     {
-        "label": "R_singular",
-        "importPath": "robotics_lib.examples.rotation-examples",
-        "description": "robotics_lib.examples.rotation-examples",
-        "isExtraImport": true,
-        "detail": "robotics_lib.examples.rotation-examples",
-        "documentation": {}
-    },
-    {
         "label": "numpy",
         "kind": 6,
         "isExtraImport": true,

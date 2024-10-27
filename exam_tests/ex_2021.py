@@ -4,7 +4,6 @@
 from robotics_lib.geometric import *
 from robotics_lib.kinematics import *
 from sympy import symbols, Matrix, pi, cos, sin, simplify, eye, sqrt,deg,solve
-from robotics_lib.examples.rotation-examples import R_singular
 
 
 #%%
