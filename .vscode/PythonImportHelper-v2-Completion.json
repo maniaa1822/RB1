@@ -1,82 +1,74 @@
 [
     {
-        "label": "*",
-        "importPath": "robotics_lib.geometric",
-        "description": "robotics_lib.geometric",
-        "isExtraImport": true,
-        "detail": "robotics_lib.geometric",
-        "documentation": {}
-    },
-    {
-        "label": "*",
-        "importPath": "robotics_lib.geometric",
-        "description": "robotics_lib.geometric",
-        "isExtraImport": true,
-        "detail": "robotics_lib.geometric",
-        "documentation": {}
-    },
-    {
-        "label": "*",
-        "importPath": "robotics_lib.kinematics",
-        "description": "robotics_lib.kinematics",
-        "isExtraImport": true,
-        "detail": "robotics_lib.kinematics",
-        "documentation": {}
-    },
-    {
-        "label": "dh_matrix",
-        "importPath": "robotics_lib.kinematics",
-        "description": "robotics_lib.kinematics",
-        "isExtraImport": true,
-        "detail": "robotics_lib.kinematics",
-        "documentation": {}
-    },
-    {
-        "label": "get_f_r",
-        "importPath": "robotics_lib.kinematics",
-        "description": "robotics_lib.kinematics",
-        "isExtraImport": true,
-        "detail": "robotics_lib.kinematics",
-        "documentation": {}
-    },
-    {
-        "label": "geometric_jacobian",
-        "importPath": "robotics_lib.kinematics",
-        "description": "robotics_lib.kinematics",
-        "isExtraImport": true,
-        "detail": "robotics_lib.kinematics",
-        "documentation": {}
-    },
-    {
-        "label": "dh_matrix",
-        "importPath": "robotics_lib.kinematics",
-        "description": "robotics_lib.kinematics",
-        "isExtraImport": true,
-        "detail": "robotics_lib.kinematics",
-        "documentation": {}
-    },
-    {
-        "label": "get_f_r",
-        "importPath": "robotics_lib.kinematics",
-        "description": "robotics_lib.kinematics",
-        "isExtraImport": true,
-        "detail": "robotics_lib.kinematics",
-        "documentation": {}
-    },
-    {
-        "label": "get_rotation_mat",
-        "importPath": "robotics_lib.kinematics",
-        "description": "robotics_lib.kinematics",
-        "isExtraImport": true,
-        "detail": "robotics_lib.kinematics",
-        "documentation": {}
-    },
-    {
         "label": "sympy",
         "kind": 6,
         "isExtraImport": true,
         "importPath": "sympy",
         "description": "sympy",
+        "detail": "sympy",
+        "documentation": {}
+    },
+    {
+        "label": "Matrix",
+        "importPath": "sympy",
+        "description": "sympy",
+        "isExtraImport": true,
+        "detail": "sympy",
+        "documentation": {}
+    },
+    {
+        "label": "symbols",
+        "importPath": "sympy",
+        "description": "sympy",
+        "isExtraImport": true,
+        "detail": "sympy",
+        "documentation": {}
+    },
+    {
+        "label": "simplify",
+        "importPath": "sympy",
+        "description": "sympy",
+        "isExtraImport": true,
+        "detail": "sympy",
+        "documentation": {}
+    },
+    {
+        "label": "pi",
+        "importPath": "sympy",
+        "description": "sympy",
+        "isExtraImport": true,
+        "detail": "sympy",
+        "documentation": {}
+    },
+    {
+        "label": "sqrt",
+        "importPath": "sympy",
+        "description": "sympy",
+        "isExtraImport": true,
+        "detail": "sympy",
+        "documentation": {}
+    },
+    {
+        "label": "cos",
+        "importPath": "sympy",
+        "description": "sympy",
+        "isExtraImport": true,
+        "detail": "sympy",
+        "documentation": {}
+    },
+    {
+        "label": "sin",
+        "importPath": "sympy",
+        "description": "sympy",
+        "isExtraImport": true,
+        "detail": "sympy",
+        "documentation": {}
+    },
+    {
+        "label": "atan2",
+        "importPath": "sympy",
+        "description": "sympy",
+        "isExtraImport": true,
         "detail": "sympy",
         "documentation": {}
     },
@@ -154,6 +146,62 @@
     },
     {
         "label": "solve",
+        "importPath": "sympy",
+        "description": "sympy",
+        "isExtraImport": true,
+        "detail": "sympy",
+        "documentation": {}
+    },
+    {
+        "label": "Matrix",
+        "importPath": "sympy",
+        "description": "sympy",
+        "isExtraImport": true,
+        "detail": "sympy",
+        "documentation": {}
+    },
+    {
+        "label": "cos",
+        "importPath": "sympy",
+        "description": "sympy",
+        "isExtraImport": true,
+        "detail": "sympy",
+        "documentation": {}
+    },
+    {
+        "label": "sin",
+        "importPath": "sympy",
+        "description": "sympy",
+        "isExtraImport": true,
+        "detail": "sympy",
+        "documentation": {}
+    },
+    {
+        "label": "simplify",
+        "importPath": "sympy",
+        "description": "sympy",
+        "isExtraImport": true,
+        "detail": "sympy",
+        "documentation": {}
+    },
+    {
+        "label": "atan2",
+        "importPath": "sympy",
+        "description": "sympy",
+        "isExtraImport": true,
+        "detail": "sympy",
+        "documentation": {}
+    },
+    {
+        "label": "pi",
+        "importPath": "sympy",
+        "description": "sympy",
+        "isExtraImport": true,
+        "detail": "sympy",
+        "documentation": {}
+    },
+    {
+        "label": "symbols",
         "importPath": "sympy",
         "description": "sympy",
         "isExtraImport": true,
@@ -546,12 +594,116 @@
         "documentation": {}
     },
     {
+        "label": "euler_rotation",
+        "importPath": "robotics_lib.geometric",
+        "description": "robotics_lib.geometric",
+        "isExtraImport": true,
+        "detail": "robotics_lib.geometric",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "robotics_lib.geometric",
+        "description": "robotics_lib.geometric",
+        "isExtraImport": true,
+        "detail": "robotics_lib.geometric",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "robotics_lib.geometric",
+        "description": "robotics_lib.geometric",
+        "isExtraImport": true,
+        "detail": "robotics_lib.geometric",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "robotics_lib.kinematics",
+        "description": "robotics_lib.kinematics",
+        "isExtraImport": true,
+        "detail": "robotics_lib.kinematics",
+        "documentation": {}
+    },
+    {
+        "label": "dh_matrix",
+        "importPath": "robotics_lib.kinematics",
+        "description": "robotics_lib.kinematics",
+        "isExtraImport": true,
+        "detail": "robotics_lib.kinematics",
+        "documentation": {}
+    },
+    {
+        "label": "get_f_r",
+        "importPath": "robotics_lib.kinematics",
+        "description": "robotics_lib.kinematics",
+        "isExtraImport": true,
+        "detail": "robotics_lib.kinematics",
+        "documentation": {}
+    },
+    {
+        "label": "geometric_jacobian",
+        "importPath": "robotics_lib.kinematics",
+        "description": "robotics_lib.kinematics",
+        "isExtraImport": true,
+        "detail": "robotics_lib.kinematics",
+        "documentation": {}
+    },
+    {
+        "label": "dh_matrix",
+        "importPath": "robotics_lib.kinematics",
+        "description": "robotics_lib.kinematics",
+        "isExtraImport": true,
+        "detail": "robotics_lib.kinematics",
+        "documentation": {}
+    },
+    {
+        "label": "get_f_r",
+        "importPath": "robotics_lib.kinematics",
+        "description": "robotics_lib.kinematics",
+        "isExtraImport": true,
+        "detail": "robotics_lib.kinematics",
+        "documentation": {}
+    },
+    {
+        "label": "get_rotation_mat",
+        "importPath": "robotics_lib.kinematics",
+        "description": "robotics_lib.kinematics",
+        "isExtraImport": true,
+        "detail": "robotics_lib.kinematics",
+        "documentation": {}
+    },
+    {
         "label": "matplotlib.pyplot",
         "kind": 6,
         "isExtraImport": true,
         "importPath": "matplotlib.pyplot",
         "description": "matplotlib.pyplot",
         "detail": "matplotlib.pyplot",
+        "documentation": {}
+    },
+    {
+        "label": "radians",
+        "importPath": "math",
+        "description": "math",
+        "isExtraImport": true,
+        "detail": "math",
+        "documentation": {}
+    },
+    {
+        "label": "degrees",
+        "importPath": "math",
+        "description": "math",
+        "isExtraImport": true,
+        "detail": "math",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "robotics_lib",
+        "description": "robotics_lib",
+        "isExtraImport": true,
+        "detail": "robotics_lib",
         "documentation": {}
     },
     {
@@ -648,6 +800,96 @@
         "description": "setuptools",
         "isExtraImport": true,
         "detail": "setuptools",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "exam_tests.ex_2021-Q1-10_sonnet.py.ex2021-Q1-10_sonnet",
+        "description": "exam_tests.ex_2021-Q1-10_sonnet.py.ex2021-Q1-10_sonnet",
+        "peekOfCode": "b = float(atan2(-np.sqrt(3)/2, 0.5))\na = float(atan2(0, -0.5/cos(b)))\nc = float(atan2(0.5/cos(b), 0))\nprint(f\"a = {np.degrees(a):.4f}°\")\nprint(f\"b = {np.degrees(b):.4f}°\")\nprint(f\"c = {np.degrees(c):.4f}°\")\n#%% Verify solution\n# Create rotation matrix with computed angles\nR_check = euler_rotation('yxz', [a, b, c])\n# Original matrix",
+        "detail": "exam_tests.ex_2021-Q1-10_sonnet.py.ex2021-Q1-10_sonnet",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "exam_tests.ex_2021-Q1-10_sonnet.py.ex2021-Q1-10_sonnet",
+        "description": "exam_tests.ex_2021-Q1-10_sonnet.py.ex2021-Q1-10_sonnet",
+        "peekOfCode": "a = float(atan2(0, -0.5/cos(b)))\nc = float(atan2(0.5/cos(b), 0))\nprint(f\"a = {np.degrees(a):.4f}°\")\nprint(f\"b = {np.degrees(b):.4f}°\")\nprint(f\"c = {np.degrees(c):.4f}°\")\n#%% Verify solution\n# Create rotation matrix with computed angles\nR_check = euler_rotation('yxz', [a, b, c])\n# Original matrix\nR = Matrix([",
+        "detail": "exam_tests.ex_2021-Q1-10_sonnet.py.ex2021-Q1-10_sonnet",
+        "documentation": {}
+    },
+    {
+        "label": "c",
+        "kind": 5,
+        "importPath": "exam_tests.ex_2021-Q1-10_sonnet.py.ex2021-Q1-10_sonnet",
+        "description": "exam_tests.ex_2021-Q1-10_sonnet.py.ex2021-Q1-10_sonnet",
+        "peekOfCode": "c = float(atan2(0.5/cos(b), 0))\nprint(f\"a = {np.degrees(a):.4f}°\")\nprint(f\"b = {np.degrees(b):.4f}°\")\nprint(f\"c = {np.degrees(c):.4f}°\")\n#%% Verify solution\n# Create rotation matrix with computed angles\nR_check = euler_rotation('yxz', [a, b, c])\n# Original matrix\nR = Matrix([\n    [0, 1, 0],",
+        "detail": "exam_tests.ex_2021-Q1-10_sonnet.py.ex2021-Q1-10_sonnet",
+        "documentation": {}
+    },
+    {
+        "label": "print(f\"a",
+        "kind": 5,
+        "importPath": "exam_tests.ex_2021-Q1-10_sonnet.py.ex2021-Q1-10_sonnet",
+        "description": "exam_tests.ex_2021-Q1-10_sonnet.py.ex2021-Q1-10_sonnet",
+        "peekOfCode": "print(f\"a = {np.degrees(a):.4f}°\")\nprint(f\"b = {np.degrees(b):.4f}°\")\nprint(f\"c = {np.degrees(c):.4f}°\")\n#%% Verify solution\n# Create rotation matrix with computed angles\nR_check = euler_rotation('yxz', [a, b, c])\n# Original matrix\nR = Matrix([\n    [0, 1, 0],\n    [0.5, 0, sqrt(3)/2],",
+        "detail": "exam_tests.ex_2021-Q1-10_sonnet.py.ex2021-Q1-10_sonnet",
+        "documentation": {}
+    },
+    {
+        "label": "print(f\"b",
+        "kind": 5,
+        "importPath": "exam_tests.ex_2021-Q1-10_sonnet.py.ex2021-Q1-10_sonnet",
+        "description": "exam_tests.ex_2021-Q1-10_sonnet.py.ex2021-Q1-10_sonnet",
+        "peekOfCode": "print(f\"b = {np.degrees(b):.4f}°\")\nprint(f\"c = {np.degrees(c):.4f}°\")\n#%% Verify solution\n# Create rotation matrix with computed angles\nR_check = euler_rotation('yxz', [a, b, c])\n# Original matrix\nR = Matrix([\n    [0, 1, 0],\n    [0.5, 0, sqrt(3)/2],\n    [sqrt(3)/2, 0, -0.5]",
+        "detail": "exam_tests.ex_2021-Q1-10_sonnet.py.ex2021-Q1-10_sonnet",
+        "documentation": {}
+    },
+    {
+        "label": "print(f\"c",
+        "kind": 5,
+        "importPath": "exam_tests.ex_2021-Q1-10_sonnet.py.ex2021-Q1-10_sonnet",
+        "description": "exam_tests.ex_2021-Q1-10_sonnet.py.ex2021-Q1-10_sonnet",
+        "peekOfCode": "print(f\"c = {np.degrees(c):.4f}°\")\n#%% Verify solution\n# Create rotation matrix with computed angles\nR_check = euler_rotation('yxz', [a, b, c])\n# Original matrix\nR = Matrix([\n    [0, 1, 0],\n    [0.5, 0, sqrt(3)/2],\n    [sqrt(3)/2, 0, -0.5]\n])",
+        "detail": "exam_tests.ex_2021-Q1-10_sonnet.py.ex2021-Q1-10_sonnet",
+        "documentation": {}
+    },
+    {
+        "label": "R_check",
+        "kind": 5,
+        "importPath": "exam_tests.ex_2021-Q1-10_sonnet.py.ex2021-Q1-10_sonnet",
+        "description": "exam_tests.ex_2021-Q1-10_sonnet.py.ex2021-Q1-10_sonnet",
+        "peekOfCode": "R_check = euler_rotation('yxz', [a, b, c])\n# Original matrix\nR = Matrix([\n    [0, 1, 0],\n    [0.5, 0, sqrt(3)/2],\n    [sqrt(3)/2, 0, -0.5]\n])\n# Check difference\ndiff = simplify(R - R_check)\nprint(\"\\nVerification - difference should be zero matrix:\")",
+        "detail": "exam_tests.ex_2021-Q1-10_sonnet.py.ex2021-Q1-10_sonnet",
+        "documentation": {}
+    },
+    {
+        "label": "R",
+        "kind": 5,
+        "importPath": "exam_tests.ex_2021-Q1-10_sonnet.py.ex2021-Q1-10_sonnet",
+        "description": "exam_tests.ex_2021-Q1-10_sonnet.py.ex2021-Q1-10_sonnet",
+        "peekOfCode": "R = Matrix([\n    [0, 1, 0],\n    [0.5, 0, sqrt(3)/2],\n    [sqrt(3)/2, 0, -0.5]\n])\n# Check difference\ndiff = simplify(R - R_check)\nprint(\"\\nVerification - difference should be zero matrix:\")\nprint(diff)\n#%% Example singular case",
+        "detail": "exam_tests.ex_2021-Q1-10_sonnet.py.ex2021-Q1-10_sonnet",
+        "documentation": {}
+    },
+    {
+        "label": "diff",
+        "kind": 5,
+        "importPath": "exam_tests.ex_2021-Q1-10_sonnet.py.ex2021-Q1-10_sonnet",
+        "description": "exam_tests.ex_2021-Q1-10_sonnet.py.ex2021-Q1-10_sonnet",
+        "peekOfCode": "diff = simplify(R - R_check)\nprint(\"\\nVerification - difference should be zero matrix:\")\nprint(diff)\n#%% Example singular case\nR_singular = euler_rotation('yxz', [pi/2, pi/2, 0])\nprint(\"\\nSingular configuration example:\")\nprint(simplify(R_singular))",
+        "detail": "exam_tests.ex_2021-Q1-10_sonnet.py.ex2021-Q1-10_sonnet",
+        "documentation": {}
+    },
+    {
+        "label": "R_singular",
+        "kind": 5,
+        "importPath": "exam_tests.ex_2021-Q1-10_sonnet.py.ex2021-Q1-10_sonnet",
+        "description": "exam_tests.ex_2021-Q1-10_sonnet.py.ex2021-Q1-10_sonnet",
+        "peekOfCode": "R_singular = euler_rotation('yxz', [pi/2, pi/2, 0])\nprint(\"\\nSingular configuration example:\")\nprint(simplify(R_singular))",
+        "detail": "exam_tests.ex_2021-Q1-10_sonnet.py.ex2021-Q1-10_sonnet",
         "documentation": {}
     },
     {
@@ -1035,6 +1277,537 @@
         "description": "exam_tests.ex_2021",
         "peekOfCode": "singular_1 = solve(determinants[1], [q1,q2,q3,q4], dict=True)\nsingular_1\n# %%",
         "detail": "exam_tests.ex_2021",
+        "documentation": {}
+    },
+    {
+        "label": "S",
+        "kind": 2,
+        "importPath": "exam_tests.ex_2021_sonnet_conversion",
+        "description": "exam_tests.ex_2021_sonnet_conversion",
+        "peekOfCode": "def S(v):\n    \"\"\"Create skew-symmetric matrix\"\"\"\n    return Matrix([\n        [0, -v[2], v[1]],\n        [v[2], 0, -v[0]],\n        [-v[1], v[0], 0]\n    ])\n#%% YXZ Euler Rotation\nR_yxz = euler_rotation('yxz', [alpha, beta, gamma])\nR_yxz",
+        "detail": "exam_tests.ex_2021_sonnet_conversion",
+        "documentation": {}
+    },
+    {
+        "label": "planar_2R_kinematics",
+        "kind": 2,
+        "importPath": "exam_tests.ex_2021_sonnet_conversion",
+        "description": "exam_tests.ex_2021_sonnet_conversion",
+        "peekOfCode": "def planar_2R_kinematics(q1, q2, l1=l1_val, l2=l2_val):\n    r = Matrix([\n        l1*cos(q1) + l2*cos(q1+q2),\n        l1*sin(q1) + l2*sin(q1+q2)\n    ])\n    J = r.jacobian([q1, q2])\n    return r, J\nr, J = planar_2R_kinematics(q1, q2)\n('r =', r, 'J =', J)\n#%% Test configurations",
+        "detail": "exam_tests.ex_2021_sonnet_conversion",
+        "documentation": {}
+    },
+    {
+        "label": "cubic_polynomial",
+        "kind": 2,
+        "importPath": "exam_tests.ex_2021_sonnet_conversion",
+        "description": "exam_tests.ex_2021_sonnet_conversion",
+        "peekOfCode": "def cubic_polynomial(t, T, qi, qf, vi, vf):\n    \"\"\"Generate cubic polynomial trajectory\"\"\"\n    Dq = qf - qi\n    # Calculate coefficients\n    a = (T*vf + T*vi - 2*Dq)/Dq\n    b = (3*Dq - 2*T*vi - T*vf)/Dq\n    c = T*vi/Dq\n    d = 0\n    # Normalized time\n    tau = t/T",
+        "detail": "exam_tests.ex_2021_sonnet_conversion",
+        "documentation": {}
+    },
+    {
+        "label": "R_yxz",
+        "kind": 5,
+        "importPath": "exam_tests.ex_2021_sonnet_conversion",
+        "description": "exam_tests.ex_2021_sonnet_conversion",
+        "peekOfCode": "R_yxz = euler_rotation('yxz', [alpha, beta, gamma])\nR_yxz\n#%% Calculate angles\nb = float(atan2(-np.sqrt(3)/2, 0.5))\na = float(atan2(0, -0.5/cos(b)))\nc = float(atan2(0.5/cos(b), 0))\n(f\"a = {degrees(a):.4f}°\", \n f\"b = {degrees(b):.4f}°\", \n f\"c = {degrees(c):.4f}°\")\n#%% Substitute values and calculate WR_B",
+        "detail": "exam_tests.ex_2021_sonnet_conversion",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "exam_tests.ex_2021_sonnet_conversion",
+        "description": "exam_tests.ex_2021_sonnet_conversion",
+        "peekOfCode": "b = float(atan2(-np.sqrt(3)/2, 0.5))\na = float(atan2(0, -0.5/cos(b)))\nc = float(atan2(0.5/cos(b), 0))\n(f\"a = {degrees(a):.4f}°\", \n f\"b = {degrees(b):.4f}°\", \n f\"c = {degrees(c):.4f}°\")\n#%% Substitute values and calculate WR_B\nR = R_yxz.subs({\n    alpha: radians(180),\n    beta: radians(-60),",
+        "detail": "exam_tests.ex_2021_sonnet_conversion",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "exam_tests.ex_2021_sonnet_conversion",
+        "description": "exam_tests.ex_2021_sonnet_conversion",
+        "peekOfCode": "a = float(atan2(0, -0.5/cos(b)))\nc = float(atan2(0.5/cos(b), 0))\n(f\"a = {degrees(a):.4f}°\", \n f\"b = {degrees(b):.4f}°\", \n f\"c = {degrees(c):.4f}°\")\n#%% Substitute values and calculate WR_B\nR = R_yxz.subs({\n    alpha: radians(180),\n    beta: radians(-60),\n    gamma: radians(90)",
+        "detail": "exam_tests.ex_2021_sonnet_conversion",
+        "documentation": {}
+    },
+    {
+        "label": "c",
+        "kind": 5,
+        "importPath": "exam_tests.ex_2021_sonnet_conversion",
+        "description": "exam_tests.ex_2021_sonnet_conversion",
+        "peekOfCode": "c = float(atan2(0.5/cos(b), 0))\n(f\"a = {degrees(a):.4f}°\", \n f\"b = {degrees(b):.4f}°\", \n f\"c = {degrees(c):.4f}°\")\n#%% Substitute values and calculate WR_B\nR = R_yxz.subs({\n    alpha: radians(180),\n    beta: radians(-60),\n    gamma: radians(90)\n})",
+        "detail": "exam_tests.ex_2021_sonnet_conversion",
+        "documentation": {}
+    },
+    {
+        "label": "(f\"a",
+        "kind": 5,
+        "importPath": "exam_tests.ex_2021_sonnet_conversion",
+        "description": "exam_tests.ex_2021_sonnet_conversion",
+        "peekOfCode": "(f\"a = {degrees(a):.4f}°\", \n f\"b = {degrees(b):.4f}°\", \n f\"c = {degrees(c):.4f}°\")\n#%% Substitute values and calculate WR_B\nR = R_yxz.subs({\n    alpha: radians(180),\n    beta: radians(-60),\n    gamma: radians(90)\n})\nWR_B = R",
+        "detail": "exam_tests.ex_2021_sonnet_conversion",
+        "documentation": {}
+    },
+    {
+        "label": "R",
+        "kind": 5,
+        "importPath": "exam_tests.ex_2021_sonnet_conversion",
+        "description": "exam_tests.ex_2021_sonnet_conversion",
+        "peekOfCode": "R = R_yxz.subs({\n    alpha: radians(180),\n    beta: radians(-60),\n    gamma: radians(90)\n})\nWR_B = R\n# Display both matrices\n('R =', R, 'WR_B =', WR_B)\n#%% Angular velocity\nBV_B = Matrix([1, -1, 0])",
+        "detail": "exam_tests.ex_2021_sonnet_conversion",
+        "documentation": {}
+    },
+    {
+        "label": "WR_B",
+        "kind": 5,
+        "importPath": "exam_tests.ex_2021_sonnet_conversion",
+        "description": "exam_tests.ex_2021_sonnet_conversion",
+        "peekOfCode": "WR_B = R\n# Display both matrices\n('R =', R, 'WR_B =', WR_B)\n#%% Angular velocity\nBV_B = Matrix([1, -1, 0])\nWR_B_dot = S(WR_B * BV_B) * WR_B\n('BV_B =', BV_B, 'WR_B_dot =', WR_B_dot)\n#%% First Robot Configuration - DH Parameters\nalpha = [-pi/2, -pi/2, 0]\na = [-l1, -l2, -l3]",
+        "detail": "exam_tests.ex_2021_sonnet_conversion",
+        "documentation": {}
+    },
+    {
+        "label": "BV_B",
+        "kind": 5,
+        "importPath": "exam_tests.ex_2021_sonnet_conversion",
+        "description": "exam_tests.ex_2021_sonnet_conversion",
+        "peekOfCode": "BV_B = Matrix([1, -1, 0])\nWR_B_dot = S(WR_B * BV_B) * WR_B\n('BV_B =', BV_B, 'WR_B_dot =', WR_B_dot)\n#%% First Robot Configuration - DH Parameters\nalpha = [-pi/2, -pi/2, 0]\na = [-l1, -l2, -l3]\nd = [symbols('l0'), 0, 0]\ntheta = [q1, q2, q3]\ntable = Matrix([\n    [alpha[0], a[0], d[0], theta[0]],",
+        "detail": "exam_tests.ex_2021_sonnet_conversion",
+        "documentation": {}
+    },
+    {
+        "label": "WR_B_dot",
+        "kind": 5,
+        "importPath": "exam_tests.ex_2021_sonnet_conversion",
+        "description": "exam_tests.ex_2021_sonnet_conversion",
+        "peekOfCode": "WR_B_dot = S(WR_B * BV_B) * WR_B\n('BV_B =', BV_B, 'WR_B_dot =', WR_B_dot)\n#%% First Robot Configuration - DH Parameters\nalpha = [-pi/2, -pi/2, 0]\na = [-l1, -l2, -l3]\nd = [symbols('l0'), 0, 0]\ntheta = [q1, q2, q3]\ntable = Matrix([\n    [alpha[0], a[0], d[0], theta[0]],\n    [alpha[1], a[1], d[1], theta[1]],",
+        "detail": "exam_tests.ex_2021_sonnet_conversion",
+        "documentation": {}
+    },
+    {
+        "label": "alpha",
+        "kind": 5,
+        "importPath": "exam_tests.ex_2021_sonnet_conversion",
+        "description": "exam_tests.ex_2021_sonnet_conversion",
+        "peekOfCode": "alpha = [-pi/2, -pi/2, 0]\na = [-l1, -l2, -l3]\nd = [symbols('l0'), 0, 0]\ntheta = [q1, q2, q3]\ntable = Matrix([\n    [alpha[0], a[0], d[0], theta[0]],\n    [alpha[1], a[1], d[1], theta[1]],\n    [alpha[2], a[2], d[2], theta[2]]\n])\n('DH Parameters:', table)",
+        "detail": "exam_tests.ex_2021_sonnet_conversion",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "exam_tests.ex_2021_sonnet_conversion",
+        "description": "exam_tests.ex_2021_sonnet_conversion",
+        "peekOfCode": "a = [-l1, -l2, -l3]\nd = [symbols('l0'), 0, 0]\ntheta = [q1, q2, q3]\ntable = Matrix([\n    [alpha[0], a[0], d[0], theta[0]],\n    [alpha[1], a[1], d[1], theta[1]],\n    [alpha[2], a[2], d[2], theta[2]]\n])\n('DH Parameters:', table)\n#%% Calculate transformations",
+        "detail": "exam_tests.ex_2021_sonnet_conversion",
+        "documentation": {}
+    },
+    {
+        "label": "d",
+        "kind": 5,
+        "importPath": "exam_tests.ex_2021_sonnet_conversion",
+        "description": "exam_tests.ex_2021_sonnet_conversion",
+        "peekOfCode": "d = [symbols('l0'), 0, 0]\ntheta = [q1, q2, q3]\ntable = Matrix([\n    [alpha[0], a[0], d[0], theta[0]],\n    [alpha[1], a[1], d[1], theta[1]],\n    [alpha[2], a[2], d[2], theta[2]]\n])\n('DH Parameters:', table)\n#%% Calculate transformations\nT, A = dh_matrix(table)",
+        "detail": "exam_tests.ex_2021_sonnet_conversion",
+        "documentation": {}
+    },
+    {
+        "label": "theta",
+        "kind": 5,
+        "importPath": "exam_tests.ex_2021_sonnet_conversion",
+        "description": "exam_tests.ex_2021_sonnet_conversion",
+        "peekOfCode": "theta = [q1, q2, q3]\ntable = Matrix([\n    [alpha[0], a[0], d[0], theta[0]],\n    [alpha[1], a[1], d[1], theta[1]],\n    [alpha[2], a[2], d[2], theta[2]]\n])\n('DH Parameters:', table)\n#%% Calculate transformations\nT, A = dh_matrix(table)\n('A0_1 =', A[0], ",
+        "detail": "exam_tests.ex_2021_sonnet_conversion",
+        "documentation": {}
+    },
+    {
+        "label": "table",
+        "kind": 5,
+        "importPath": "exam_tests.ex_2021_sonnet_conversion",
+        "description": "exam_tests.ex_2021_sonnet_conversion",
+        "peekOfCode": "table = Matrix([\n    [alpha[0], a[0], d[0], theta[0]],\n    [alpha[1], a[1], d[1], theta[1]],\n    [alpha[2], a[2], d[2], theta[2]]\n])\n('DH Parameters:', table)\n#%% Calculate transformations\nT, A = dh_matrix(table)\n('A0_1 =', A[0], \n 'A1_2 =', A[1], ",
+        "detail": "exam_tests.ex_2021_sonnet_conversion",
+        "documentation": {}
+    },
+    {
+        "label": "f_r_3D",
+        "kind": 5,
+        "importPath": "exam_tests.ex_2021_sonnet_conversion",
+        "description": "exam_tests.ex_2021_sonnet_conversion",
+        "peekOfCode": "f_r_3D = get_f_r(T)\nf_r = Matrix([f_r_3D[0], f_r_3D[1], f_r_3D[2]])\n('f_r_3D =', f_r_3D, 'f_r =', f_r)\n#%% Second Robot Configuration\nalpha2 = [0, -pi/2, pi/2, 0]\na2 = [l1, 0, 0, l2]\nd2 = [0, 0, q3, 0]\ntheta2 = [q1, q2-pi/2, 0, q4+pi/2]\ntable2 = Matrix([\n    [alpha2[0], a2[0], d2[0], theta2[0]],",
+        "detail": "exam_tests.ex_2021_sonnet_conversion",
+        "documentation": {}
+    },
+    {
+        "label": "f_r",
+        "kind": 5,
+        "importPath": "exam_tests.ex_2021_sonnet_conversion",
+        "description": "exam_tests.ex_2021_sonnet_conversion",
+        "peekOfCode": "f_r = Matrix([f_r_3D[0], f_r_3D[1], f_r_3D[2]])\n('f_r_3D =', f_r_3D, 'f_r =', f_r)\n#%% Second Robot Configuration\nalpha2 = [0, -pi/2, pi/2, 0]\na2 = [l1, 0, 0, l2]\nd2 = [0, 0, q3, 0]\ntheta2 = [q1, q2-pi/2, 0, q4+pi/2]\ntable2 = Matrix([\n    [alpha2[0], a2[0], d2[0], theta2[0]],\n    [alpha2[1], a2[1], d2[1], theta2[1]],",
+        "detail": "exam_tests.ex_2021_sonnet_conversion",
+        "documentation": {}
+    },
+    {
+        "label": "alpha2",
+        "kind": 5,
+        "importPath": "exam_tests.ex_2021_sonnet_conversion",
+        "description": "exam_tests.ex_2021_sonnet_conversion",
+        "peekOfCode": "alpha2 = [0, -pi/2, pi/2, 0]\na2 = [l1, 0, 0, l2]\nd2 = [0, 0, q3, 0]\ntheta2 = [q1, q2-pi/2, 0, q4+pi/2]\ntable2 = Matrix([\n    [alpha2[0], a2[0], d2[0], theta2[0]],\n    [alpha2[1], a2[1], d2[1], theta2[1]],\n    [alpha2[2], a2[2], d2[2], theta2[2]],\n    [alpha2[3], a2[3], d2[3], theta2[3]]\n])",
+        "detail": "exam_tests.ex_2021_sonnet_conversion",
+        "documentation": {}
+    },
+    {
+        "label": "a2",
+        "kind": 5,
+        "importPath": "exam_tests.ex_2021_sonnet_conversion",
+        "description": "exam_tests.ex_2021_sonnet_conversion",
+        "peekOfCode": "a2 = [l1, 0, 0, l2]\nd2 = [0, 0, q3, 0]\ntheta2 = [q1, q2-pi/2, 0, q4+pi/2]\ntable2 = Matrix([\n    [alpha2[0], a2[0], d2[0], theta2[0]],\n    [alpha2[1], a2[1], d2[1], theta2[1]],\n    [alpha2[2], a2[2], d2[2], theta2[2]],\n    [alpha2[3], a2[3], d2[3], theta2[3]]\n])\n('Second Robot DH Parameters:', table2)",
+        "detail": "exam_tests.ex_2021_sonnet_conversion",
+        "documentation": {}
+    },
+    {
+        "label": "d2",
+        "kind": 5,
+        "importPath": "exam_tests.ex_2021_sonnet_conversion",
+        "description": "exam_tests.ex_2021_sonnet_conversion",
+        "peekOfCode": "d2 = [0, 0, q3, 0]\ntheta2 = [q1, q2-pi/2, 0, q4+pi/2]\ntable2 = Matrix([\n    [alpha2[0], a2[0], d2[0], theta2[0]],\n    [alpha2[1], a2[1], d2[1], theta2[1]],\n    [alpha2[2], a2[2], d2[2], theta2[2]],\n    [alpha2[3], a2[3], d2[3], theta2[3]]\n])\n('Second Robot DH Parameters:', table2)\n#%% Second Robot Forward Kinematics and Jacobian",
+        "detail": "exam_tests.ex_2021_sonnet_conversion",
+        "documentation": {}
+    },
+    {
+        "label": "theta2",
+        "kind": 5,
+        "importPath": "exam_tests.ex_2021_sonnet_conversion",
+        "description": "exam_tests.ex_2021_sonnet_conversion",
+        "peekOfCode": "theta2 = [q1, q2-pi/2, 0, q4+pi/2]\ntable2 = Matrix([\n    [alpha2[0], a2[0], d2[0], theta2[0]],\n    [alpha2[1], a2[1], d2[1], theta2[1]],\n    [alpha2[2], a2[2], d2[2], theta2[2]],\n    [alpha2[3], a2[3], d2[3], theta2[3]]\n])\n('Second Robot DH Parameters:', table2)\n#%% Second Robot Forward Kinematics and Jacobian\nT2, A2 = dh_matrix(table2)",
+        "detail": "exam_tests.ex_2021_sonnet_conversion",
+        "documentation": {}
+    },
+    {
+        "label": "table2",
+        "kind": 5,
+        "importPath": "exam_tests.ex_2021_sonnet_conversion",
+        "description": "exam_tests.ex_2021_sonnet_conversion",
+        "peekOfCode": "table2 = Matrix([\n    [alpha2[0], a2[0], d2[0], theta2[0]],\n    [alpha2[1], a2[1], d2[1], theta2[1]],\n    [alpha2[2], a2[2], d2[2], theta2[2]],\n    [alpha2[3], a2[3], d2[3], theta2[3]]\n])\n('Second Robot DH Parameters:', table2)\n#%% Second Robot Forward Kinematics and Jacobian\nT2, A2 = dh_matrix(table2)\nf_r_3D2 = get_f_r(T2)",
+        "detail": "exam_tests.ex_2021_sonnet_conversion",
+        "documentation": {}
+    },
+    {
+        "label": "f_r_3D2",
+        "kind": 5,
+        "importPath": "exam_tests.ex_2021_sonnet_conversion",
+        "description": "exam_tests.ex_2021_sonnet_conversion",
+        "peekOfCode": "f_r_3D2 = get_f_r(T2)\nf_r2 = Matrix([f_r_3D2[0], f_r_3D2[1], f_r_3D2[3]])  # Using alpha_z instead of z\nj = simplify(f_r2.jacobian([q1, q2, q3, q4]))\n('T2 =', T2,\n 'f_r2 =', f_r2,\n 'Jacobian =', j)\n#%% Planar 2R Robot\nl1_val = 1.0\nl2_val = 1.0\ndef planar_2R_kinematics(q1, q2, l1=l1_val, l2=l2_val):",
+        "detail": "exam_tests.ex_2021_sonnet_conversion",
+        "documentation": {}
+    },
+    {
+        "label": "f_r2",
+        "kind": 5,
+        "importPath": "exam_tests.ex_2021_sonnet_conversion",
+        "description": "exam_tests.ex_2021_sonnet_conversion",
+        "peekOfCode": "f_r2 = Matrix([f_r_3D2[0], f_r_3D2[1], f_r_3D2[3]])  # Using alpha_z instead of z\nj = simplify(f_r2.jacobian([q1, q2, q3, q4]))\n('T2 =', T2,\n 'f_r2 =', f_r2,\n 'Jacobian =', j)\n#%% Planar 2R Robot\nl1_val = 1.0\nl2_val = 1.0\ndef planar_2R_kinematics(q1, q2, l1=l1_val, l2=l2_val):\n    r = Matrix([",
+        "detail": "exam_tests.ex_2021_sonnet_conversion",
+        "documentation": {}
+    },
+    {
+        "label": "j",
+        "kind": 5,
+        "importPath": "exam_tests.ex_2021_sonnet_conversion",
+        "description": "exam_tests.ex_2021_sonnet_conversion",
+        "peekOfCode": "j = simplify(f_r2.jacobian([q1, q2, q3, q4]))\n('T2 =', T2,\n 'f_r2 =', f_r2,\n 'Jacobian =', j)\n#%% Planar 2R Robot\nl1_val = 1.0\nl2_val = 1.0\ndef planar_2R_kinematics(q1, q2, l1=l1_val, l2=l2_val):\n    r = Matrix([\n        l1*cos(q1) + l2*cos(q1+q2),",
+        "detail": "exam_tests.ex_2021_sonnet_conversion",
+        "documentation": {}
+    },
+    {
+        "label": "l1_val",
+        "kind": 5,
+        "importPath": "exam_tests.ex_2021_sonnet_conversion",
+        "description": "exam_tests.ex_2021_sonnet_conversion",
+        "peekOfCode": "l1_val = 1.0\nl2_val = 1.0\ndef planar_2R_kinematics(q1, q2, l1=l1_val, l2=l2_val):\n    r = Matrix([\n        l1*cos(q1) + l2*cos(q1+q2),\n        l1*sin(q1) + l2*sin(q1+q2)\n    ])\n    J = r.jacobian([q1, q2])\n    return r, J\nr, J = planar_2R_kinematics(q1, q2)",
+        "detail": "exam_tests.ex_2021_sonnet_conversion",
+        "documentation": {}
+    },
+    {
+        "label": "l2_val",
+        "kind": 5,
+        "importPath": "exam_tests.ex_2021_sonnet_conversion",
+        "description": "exam_tests.ex_2021_sonnet_conversion",
+        "peekOfCode": "l2_val = 1.0\ndef planar_2R_kinematics(q1, q2, l1=l1_val, l2=l2_val):\n    r = Matrix([\n        l1*cos(q1) + l2*cos(q1+q2),\n        l1*sin(q1) + l2*sin(q1+q2)\n    ])\n    J = r.jacobian([q1, q2])\n    return r, J\nr, J = planar_2R_kinematics(q1, q2)\n('r =', r, 'J =', J)",
+        "detail": "exam_tests.ex_2021_sonnet_conversion",
+        "documentation": {}
+    },
+    {
+        "label": "qa",
+        "kind": 5,
+        "importPath": "exam_tests.ex_2021_sonnet_conversion",
+        "description": "exam_tests.ex_2021_sonnet_conversion",
+        "peekOfCode": "qa = Matrix([3*pi/4, -pi/2])\nqb = Matrix([pi/2, -pi/2])\nFA = (10/np.sqrt(2))*Matrix([1, 1])\nJ_qa = J.subs({q1: qa[0], q2: qa[1]})\ntau_a = J_qa.transpose() * FA\nFB = (10/np.sqrt(2))*Matrix([-1, -1])\nJ_qb = J.subs({q1: qb[0], q2: qb[1]})\ntau_b = -J_qb.transpose() * FB\n('tau_a =', tau_a, 'tau_b =', tau_b)\n#%% Trajectory Generation",
+        "detail": "exam_tests.ex_2021_sonnet_conversion",
+        "documentation": {}
+    },
+    {
+        "label": "qb",
+        "kind": 5,
+        "importPath": "exam_tests.ex_2021_sonnet_conversion",
+        "description": "exam_tests.ex_2021_sonnet_conversion",
+        "peekOfCode": "qb = Matrix([pi/2, -pi/2])\nFA = (10/np.sqrt(2))*Matrix([1, 1])\nJ_qa = J.subs({q1: qa[0], q2: qa[1]})\ntau_a = J_qa.transpose() * FA\nFB = (10/np.sqrt(2))*Matrix([-1, -1])\nJ_qb = J.subs({q1: qb[0], q2: qb[1]})\ntau_b = -J_qb.transpose() * FB\n('tau_a =', tau_a, 'tau_b =', tau_b)\n#%% Trajectory Generation\ndef cubic_polynomial(t, T, qi, qf, vi, vf):",
+        "detail": "exam_tests.ex_2021_sonnet_conversion",
+        "documentation": {}
+    },
+    {
+        "label": "FA",
+        "kind": 5,
+        "importPath": "exam_tests.ex_2021_sonnet_conversion",
+        "description": "exam_tests.ex_2021_sonnet_conversion",
+        "peekOfCode": "FA = (10/np.sqrt(2))*Matrix([1, 1])\nJ_qa = J.subs({q1: qa[0], q2: qa[1]})\ntau_a = J_qa.transpose() * FA\nFB = (10/np.sqrt(2))*Matrix([-1, -1])\nJ_qb = J.subs({q1: qb[0], q2: qb[1]})\ntau_b = -J_qb.transpose() * FB\n('tau_a =', tau_a, 'tau_b =', tau_b)\n#%% Trajectory Generation\ndef cubic_polynomial(t, T, qi, qf, vi, vf):\n    \"\"\"Generate cubic polynomial trajectory\"\"\"",
+        "detail": "exam_tests.ex_2021_sonnet_conversion",
+        "documentation": {}
+    },
+    {
+        "label": "J_qa",
+        "kind": 5,
+        "importPath": "exam_tests.ex_2021_sonnet_conversion",
+        "description": "exam_tests.ex_2021_sonnet_conversion",
+        "peekOfCode": "J_qa = J.subs({q1: qa[0], q2: qa[1]})\ntau_a = J_qa.transpose() * FA\nFB = (10/np.sqrt(2))*Matrix([-1, -1])\nJ_qb = J.subs({q1: qb[0], q2: qb[1]})\ntau_b = -J_qb.transpose() * FB\n('tau_a =', tau_a, 'tau_b =', tau_b)\n#%% Trajectory Generation\ndef cubic_polynomial(t, T, qi, qf, vi, vf):\n    \"\"\"Generate cubic polynomial trajectory\"\"\"\n    Dq = qf - qi",
+        "detail": "exam_tests.ex_2021_sonnet_conversion",
+        "documentation": {}
+    },
+    {
+        "label": "tau_a",
+        "kind": 5,
+        "importPath": "exam_tests.ex_2021_sonnet_conversion",
+        "description": "exam_tests.ex_2021_sonnet_conversion",
+        "peekOfCode": "tau_a = J_qa.transpose() * FA\nFB = (10/np.sqrt(2))*Matrix([-1, -1])\nJ_qb = J.subs({q1: qb[0], q2: qb[1]})\ntau_b = -J_qb.transpose() * FB\n('tau_a =', tau_a, 'tau_b =', tau_b)\n#%% Trajectory Generation\ndef cubic_polynomial(t, T, qi, qf, vi, vf):\n    \"\"\"Generate cubic polynomial trajectory\"\"\"\n    Dq = qf - qi\n    # Calculate coefficients",
+        "detail": "exam_tests.ex_2021_sonnet_conversion",
+        "documentation": {}
+    },
+    {
+        "label": "FB",
+        "kind": 5,
+        "importPath": "exam_tests.ex_2021_sonnet_conversion",
+        "description": "exam_tests.ex_2021_sonnet_conversion",
+        "peekOfCode": "FB = (10/np.sqrt(2))*Matrix([-1, -1])\nJ_qb = J.subs({q1: qb[0], q2: qb[1]})\ntau_b = -J_qb.transpose() * FB\n('tau_a =', tau_a, 'tau_b =', tau_b)\n#%% Trajectory Generation\ndef cubic_polynomial(t, T, qi, qf, vi, vf):\n    \"\"\"Generate cubic polynomial trajectory\"\"\"\n    Dq = qf - qi\n    # Calculate coefficients\n    a = (T*vf + T*vi - 2*Dq)/Dq",
+        "detail": "exam_tests.ex_2021_sonnet_conversion",
+        "documentation": {}
+    },
+    {
+        "label": "J_qb",
+        "kind": 5,
+        "importPath": "exam_tests.ex_2021_sonnet_conversion",
+        "description": "exam_tests.ex_2021_sonnet_conversion",
+        "peekOfCode": "J_qb = J.subs({q1: qb[0], q2: qb[1]})\ntau_b = -J_qb.transpose() * FB\n('tau_a =', tau_a, 'tau_b =', tau_b)\n#%% Trajectory Generation\ndef cubic_polynomial(t, T, qi, qf, vi, vf):\n    \"\"\"Generate cubic polynomial trajectory\"\"\"\n    Dq = qf - qi\n    # Calculate coefficients\n    a = (T*vf + T*vi - 2*Dq)/Dq\n    b = (3*Dq - 2*T*vi - T*vf)/Dq",
+        "detail": "exam_tests.ex_2021_sonnet_conversion",
+        "documentation": {}
+    },
+    {
+        "label": "tau_b",
+        "kind": 5,
+        "importPath": "exam_tests.ex_2021_sonnet_conversion",
+        "description": "exam_tests.ex_2021_sonnet_conversion",
+        "peekOfCode": "tau_b = -J_qb.transpose() * FB\n('tau_a =', tau_a, 'tau_b =', tau_b)\n#%% Trajectory Generation\ndef cubic_polynomial(t, T, qi, qf, vi, vf):\n    \"\"\"Generate cubic polynomial trajectory\"\"\"\n    Dq = qf - qi\n    # Calculate coefficients\n    a = (T*vf + T*vi - 2*Dq)/Dq\n    b = (3*Dq - 2*T*vi - T*vf)/Dq\n    c = T*vi/Dq",
+        "detail": "exam_tests.ex_2021_sonnet_conversion",
+        "documentation": {}
+    },
+    {
+        "label": "T_val",
+        "kind": 5,
+        "importPath": "exam_tests.ex_2021_sonnet_conversion",
+        "description": "exam_tests.ex_2021_sonnet_conversion",
+        "peekOfCode": "T_val = 2\nqi = pi\nqf = 1.4805\nvi = 0\nvf = -0.7185\nDq = qf - qi\na1 = (T_val*vf + T_val*vi - 2*Dq)/Dq\nb1 = (3*Dq - 2*T_val*vi - T_val*vf)/Dq\nc1 = T_val*vi/Dq\nd1 = 0",
+        "detail": "exam_tests.ex_2021_sonnet_conversion",
+        "documentation": {}
+    },
+    {
+        "label": "qi",
+        "kind": 5,
+        "importPath": "exam_tests.ex_2021_sonnet_conversion",
+        "description": "exam_tests.ex_2021_sonnet_conversion",
+        "peekOfCode": "qi = pi\nqf = 1.4805\nvi = 0\nvf = -0.7185\nDq = qf - qi\na1 = (T_val*vf + T_val*vi - 2*Dq)/Dq\nb1 = (3*Dq - 2*T_val*vi - T_val*vf)/Dq\nc1 = T_val*vi/Dq\nd1 = 0\n('Joint 1 coefficients:',",
+        "detail": "exam_tests.ex_2021_sonnet_conversion",
+        "documentation": {}
+    },
+    {
+        "label": "qf",
+        "kind": 5,
+        "importPath": "exam_tests.ex_2021_sonnet_conversion",
+        "description": "exam_tests.ex_2021_sonnet_conversion",
+        "peekOfCode": "qf = 1.4805\nvi = 0\nvf = -0.7185\nDq = qf - qi\na1 = (T_val*vf + T_val*vi - 2*Dq)/Dq\nb1 = (3*Dq - 2*T_val*vi - T_val*vf)/Dq\nc1 = T_val*vi/Dq\nd1 = 0\n('Joint 1 coefficients:',\n f'a = {a1:.4f}',",
+        "detail": "exam_tests.ex_2021_sonnet_conversion",
+        "documentation": {}
+    },
+    {
+        "label": "vi",
+        "kind": 5,
+        "importPath": "exam_tests.ex_2021_sonnet_conversion",
+        "description": "exam_tests.ex_2021_sonnet_conversion",
+        "peekOfCode": "vi = 0\nvf = -0.7185\nDq = qf - qi\na1 = (T_val*vf + T_val*vi - 2*Dq)/Dq\nb1 = (3*Dq - 2*T_val*vi - T_val*vf)/Dq\nc1 = T_val*vi/Dq\nd1 = 0\n('Joint 1 coefficients:',\n f'a = {a1:.4f}',\n f'b = {b1:.4f}',",
+        "detail": "exam_tests.ex_2021_sonnet_conversion",
+        "documentation": {}
+    },
+    {
+        "label": "vf",
+        "kind": 5,
+        "importPath": "exam_tests.ex_2021_sonnet_conversion",
+        "description": "exam_tests.ex_2021_sonnet_conversion",
+        "peekOfCode": "vf = -0.7185\nDq = qf - qi\na1 = (T_val*vf + T_val*vi - 2*Dq)/Dq\nb1 = (3*Dq - 2*T_val*vi - T_val*vf)/Dq\nc1 = T_val*vi/Dq\nd1 = 0\n('Joint 1 coefficients:',\n f'a = {a1:.4f}',\n f'b = {b1:.4f}',\n f'c = {c1:.4f}',",
+        "detail": "exam_tests.ex_2021_sonnet_conversion",
+        "documentation": {}
+    },
+    {
+        "label": "Dq",
+        "kind": 5,
+        "importPath": "exam_tests.ex_2021_sonnet_conversion",
+        "description": "exam_tests.ex_2021_sonnet_conversion",
+        "peekOfCode": "Dq = qf - qi\na1 = (T_val*vf + T_val*vi - 2*Dq)/Dq\nb1 = (3*Dq - 2*T_val*vi - T_val*vf)/Dq\nc1 = T_val*vi/Dq\nd1 = 0\n('Joint 1 coefficients:',\n f'a = {a1:.4f}',\n f'b = {b1:.4f}',\n f'c = {c1:.4f}',\n f'd = {d1:.4f}')",
+        "detail": "exam_tests.ex_2021_sonnet_conversion",
+        "documentation": {}
+    },
+    {
+        "label": "a1",
+        "kind": 5,
+        "importPath": "exam_tests.ex_2021_sonnet_conversion",
+        "description": "exam_tests.ex_2021_sonnet_conversion",
+        "peekOfCode": "a1 = (T_val*vf + T_val*vi - 2*Dq)/Dq\nb1 = (3*Dq - 2*T_val*vi - T_val*vf)/Dq\nc1 = T_val*vi/Dq\nd1 = 0\n('Joint 1 coefficients:',\n f'a = {a1:.4f}',\n f'b = {b1:.4f}',\n f'c = {c1:.4f}',\n f'd = {d1:.4f}')\n#%% Joint 2 coefficients",
+        "detail": "exam_tests.ex_2021_sonnet_conversion",
+        "documentation": {}
+    },
+    {
+        "label": "b1",
+        "kind": 5,
+        "importPath": "exam_tests.ex_2021_sonnet_conversion",
+        "description": "exam_tests.ex_2021_sonnet_conversion",
+        "peekOfCode": "b1 = (3*Dq - 2*T_val*vi - T_val*vf)/Dq\nc1 = T_val*vi/Dq\nd1 = 0\n('Joint 1 coefficients:',\n f'a = {a1:.4f}',\n f'b = {b1:.4f}',\n f'c = {c1:.4f}',\n f'd = {d1:.4f}')\n#%% Joint 2 coefficients\nqi = 0",
+        "detail": "exam_tests.ex_2021_sonnet_conversion",
+        "documentation": {}
+    },
+    {
+        "label": "c1",
+        "kind": 5,
+        "importPath": "exam_tests.ex_2021_sonnet_conversion",
+        "description": "exam_tests.ex_2021_sonnet_conversion",
+        "peekOfCode": "c1 = T_val*vi/Dq\nd1 = 0\n('Joint 1 coefficients:',\n f'a = {a1:.4f}',\n f'b = {b1:.4f}',\n f'c = {c1:.4f}',\n f'd = {d1:.4f}')\n#%% Joint 2 coefficients\nqi = 0\nqf = -2.3016",
+        "detail": "exam_tests.ex_2021_sonnet_conversion",
+        "documentation": {}
+    },
+    {
+        "label": "d1",
+        "kind": 5,
+        "importPath": "exam_tests.ex_2021_sonnet_conversion",
+        "description": "exam_tests.ex_2021_sonnet_conversion",
+        "peekOfCode": "d1 = 0\n('Joint 1 coefficients:',\n f'a = {a1:.4f}',\n f'b = {b1:.4f}',\n f'c = {c1:.4f}',\n f'd = {d1:.4f}')\n#%% Joint 2 coefficients\nqi = 0\nqf = -2.3016\nvi = 0",
+        "detail": "exam_tests.ex_2021_sonnet_conversion",
+        "documentation": {}
+    },
+    {
+        "label": "qi",
+        "kind": 5,
+        "importPath": "exam_tests.ex_2021_sonnet_conversion",
+        "description": "exam_tests.ex_2021_sonnet_conversion",
+        "peekOfCode": "qi = 0\nqf = -2.3016\nvi = 0\nvf = 0.4601\nDq = qf - qi\na2 = (T_val*vf + T_val*vi - 2*Dq)/Dq\nb2 = (3*Dq - 2*T_val*vi - T_val*vf)/Dq\nc2 = T_val*vi/Dq\nd2 = 0\n('Joint 2 coefficients:',",
+        "detail": "exam_tests.ex_2021_sonnet_conversion",
+        "documentation": {}
+    },
+    {
+        "label": "qf",
+        "kind": 5,
+        "importPath": "exam_tests.ex_2021_sonnet_conversion",
+        "description": "exam_tests.ex_2021_sonnet_conversion",
+        "peekOfCode": "qf = -2.3016\nvi = 0\nvf = 0.4601\nDq = qf - qi\na2 = (T_val*vf + T_val*vi - 2*Dq)/Dq\nb2 = (3*Dq - 2*T_val*vi - T_val*vf)/Dq\nc2 = T_val*vi/Dq\nd2 = 0\n('Joint 2 coefficients:',\n f'a = {a2:.4f}',",
+        "detail": "exam_tests.ex_2021_sonnet_conversion",
+        "documentation": {}
+    },
+    {
+        "label": "vi",
+        "kind": 5,
+        "importPath": "exam_tests.ex_2021_sonnet_conversion",
+        "description": "exam_tests.ex_2021_sonnet_conversion",
+        "peekOfCode": "vi = 0\nvf = 0.4601\nDq = qf - qi\na2 = (T_val*vf + T_val*vi - 2*Dq)/Dq\nb2 = (3*Dq - 2*T_val*vi - T_val*vf)/Dq\nc2 = T_val*vi/Dq\nd2 = 0\n('Joint 2 coefficients:',\n f'a = {a2:.4f}',\n f'b = {b2:.4f}',",
+        "detail": "exam_tests.ex_2021_sonnet_conversion",
+        "documentation": {}
+    },
+    {
+        "label": "vf",
+        "kind": 5,
+        "importPath": "exam_tests.ex_2021_sonnet_conversion",
+        "description": "exam_tests.ex_2021_sonnet_conversion",
+        "peekOfCode": "vf = 0.4601\nDq = qf - qi\na2 = (T_val*vf + T_val*vi - 2*Dq)/Dq\nb2 = (3*Dq - 2*T_val*vi - T_val*vf)/Dq\nc2 = T_val*vi/Dq\nd2 = 0\n('Joint 2 coefficients:',\n f'a = {a2:.4f}',\n f'b = {b2:.4f}',\n f'c = {c2:.4f}',",
+        "detail": "exam_tests.ex_2021_sonnet_conversion",
+        "documentation": {}
+    },
+    {
+        "label": "Dq",
+        "kind": 5,
+        "importPath": "exam_tests.ex_2021_sonnet_conversion",
+        "description": "exam_tests.ex_2021_sonnet_conversion",
+        "peekOfCode": "Dq = qf - qi\na2 = (T_val*vf + T_val*vi - 2*Dq)/Dq\nb2 = (3*Dq - 2*T_val*vi - T_val*vf)/Dq\nc2 = T_val*vi/Dq\nd2 = 0\n('Joint 2 coefficients:',\n f'a = {a2:.4f}',\n f'b = {b2:.4f}',\n f'c = {c2:.4f}',\n f'd = {d2:.4f}')",
+        "detail": "exam_tests.ex_2021_sonnet_conversion",
+        "documentation": {}
+    },
+    {
+        "label": "a2",
+        "kind": 5,
+        "importPath": "exam_tests.ex_2021_sonnet_conversion",
+        "description": "exam_tests.ex_2021_sonnet_conversion",
+        "peekOfCode": "a2 = (T_val*vf + T_val*vi - 2*Dq)/Dq\nb2 = (3*Dq - 2*T_val*vi - T_val*vf)/Dq\nc2 = T_val*vi/Dq\nd2 = 0\n('Joint 2 coefficients:',\n f'a = {a2:.4f}',\n f'b = {b2:.4f}',\n f'c = {c2:.4f}',\n f'd = {d2:.4f}')\n#%% Generate and plot trajectories",
+        "detail": "exam_tests.ex_2021_sonnet_conversion",
+        "documentation": {}
+    },
+    {
+        "label": "b2",
+        "kind": 5,
+        "importPath": "exam_tests.ex_2021_sonnet_conversion",
+        "description": "exam_tests.ex_2021_sonnet_conversion",
+        "peekOfCode": "b2 = (3*Dq - 2*T_val*vi - T_val*vf)/Dq\nc2 = T_val*vi/Dq\nd2 = 0\n('Joint 2 coefficients:',\n f'a = {a2:.4f}',\n f'b = {b2:.4f}',\n f'c = {c2:.4f}',\n f'd = {d2:.4f}')\n#%% Generate and plot trajectories\nt_vals = np.linspace(0, 2, 100)",
+        "detail": "exam_tests.ex_2021_sonnet_conversion",
+        "documentation": {}
+    },
+    {
+        "label": "c2",
+        "kind": 5,
+        "importPath": "exam_tests.ex_2021_sonnet_conversion",
+        "description": "exam_tests.ex_2021_sonnet_conversion",
+        "peekOfCode": "c2 = T_val*vi/Dq\nd2 = 0\n('Joint 2 coefficients:',\n f'a = {a2:.4f}',\n f'b = {b2:.4f}',\n f'c = {c2:.4f}',\n f'd = {d2:.4f}')\n#%% Generate and plot trajectories\nt_vals = np.linspace(0, 2, 100)\nq_traj1 = [cubic_polynomial(t, 2, pi, 1.4805, 0, -0.7185) for t in t_vals]",
+        "detail": "exam_tests.ex_2021_sonnet_conversion",
+        "documentation": {}
+    },
+    {
+        "label": "d2",
+        "kind": 5,
+        "importPath": "exam_tests.ex_2021_sonnet_conversion",
+        "description": "exam_tests.ex_2021_sonnet_conversion",
+        "peekOfCode": "d2 = 0\n('Joint 2 coefficients:',\n f'a = {a2:.4f}',\n f'b = {b2:.4f}',\n f'c = {c2:.4f}',\n f'd = {d2:.4f}')\n#%% Generate and plot trajectories\nt_vals = np.linspace(0, 2, 100)\nq_traj1 = [cubic_polynomial(t, 2, pi, 1.4805, 0, -0.7185) for t in t_vals]\nq_traj2 = [cubic_polynomial(t, 2, 0, -2.3016, 0, 0.4601) for t in t_vals]",
+        "detail": "exam_tests.ex_2021_sonnet_conversion",
+        "documentation": {}
+    },
+    {
+        "label": "t_vals",
+        "kind": 5,
+        "importPath": "exam_tests.ex_2021_sonnet_conversion",
+        "description": "exam_tests.ex_2021_sonnet_conversion",
+        "peekOfCode": "t_vals = np.linspace(0, 2, 100)\nq_traj1 = [cubic_polynomial(t, 2, pi, 1.4805, 0, -0.7185) for t in t_vals]\nq_traj2 = [cubic_polynomial(t, 2, 0, -2.3016, 0, 0.4601) for t in t_vals]\nfig, (ax1, ax2) = plt.subplots(1, 2, figsize=(15, 6))\nax1.plot(t_vals, q_traj1)\nax1.set_title('Joint 1 Trajectory')\nax1.set_xlabel('Time (s)')\nax1.set_ylabel('Position (rad)')\nax1.grid(True)\nax2.plot(t_vals, q_traj2)",
+        "detail": "exam_tests.ex_2021_sonnet_conversion",
+        "documentation": {}
+    },
+    {
+        "label": "q_traj1",
+        "kind": 5,
+        "importPath": "exam_tests.ex_2021_sonnet_conversion",
+        "description": "exam_tests.ex_2021_sonnet_conversion",
+        "peekOfCode": "q_traj1 = [cubic_polynomial(t, 2, pi, 1.4805, 0, -0.7185) for t in t_vals]\nq_traj2 = [cubic_polynomial(t, 2, 0, -2.3016, 0, 0.4601) for t in t_vals]\nfig, (ax1, ax2) = plt.subplots(1, 2, figsize=(15, 6))\nax1.plot(t_vals, q_traj1)\nax1.set_title('Joint 1 Trajectory')\nax1.set_xlabel('Time (s)')\nax1.set_ylabel('Position (rad)')\nax1.grid(True)\nax2.plot(t_vals, q_traj2)\nax2.set_title('Joint 2 Trajectory')",
+        "detail": "exam_tests.ex_2021_sonnet_conversion",
+        "documentation": {}
+    },
+    {
+        "label": "q_traj2",
+        "kind": 5,
+        "importPath": "exam_tests.ex_2021_sonnet_conversion",
+        "description": "exam_tests.ex_2021_sonnet_conversion",
+        "peekOfCode": "q_traj2 = [cubic_polynomial(t, 2, 0, -2.3016, 0, 0.4601) for t in t_vals]\nfig, (ax1, ax2) = plt.subplots(1, 2, figsize=(15, 6))\nax1.plot(t_vals, q_traj1)\nax1.set_title('Joint 1 Trajectory')\nax1.set_xlabel('Time (s)')\nax1.set_ylabel('Position (rad)')\nax1.grid(True)\nax2.plot(t_vals, q_traj2)\nax2.set_title('Joint 2 Trajectory')\nax2.set_xlabel('Time (s)')",
+        "detail": "exam_tests.ex_2021_sonnet_conversion",
         "documentation": {}
     },
     {
@@ -1897,7 +2670,7 @@
         "kind": 2,
         "importPath": "robotics_lib.kinematics",
         "description": "robotics_lib.kinematics",
-        "peekOfCode": "def dh_matrix(dh_table):\n    \"\"\"\n    Calculate the DH transformation matrix for robot kinematics.\n    Parameters:\n    dh_table: sympy Matrix of shape (n,4)\n           Each row contains [alpha, a, d, theta] parameters\n    Returns:\n    T: The final transformation matrix (product of all individual transformations)\n    A: List of individual transformation matrices\n    \"\"\"",
+        "peekOfCode": "def dh_matrix(dh_table):\n    \"\"\"\n    Calculate the DH transformation matrix for robot kinematics.\n    Parameters:\n    dh_table: sympy Matrix of shape (n,4)\n           Each row contains [alpha, a, d, theta] parameters\n    Returns:\n    T: The final transformation matrix (product of all individual transformations)\n    A: List of individual transformation matrices\n    Example:",
         "detail": "robotics_lib.kinematics",
         "documentation": {}
     },
@@ -1906,7 +2679,7 @@
         "kind": 2,
         "importPath": "robotics_lib.kinematics",
         "description": "robotics_lib.kinematics",
-        "peekOfCode": "def get_f_r(T):\n    \"\"\"\n    Get the forward kinematics mapping from joint space to Cartesian space.\n    Parameters:\n    T: sympy Matrix\n       Homogeneous transformation matrix (symbolic)\n    Returns:\n    f_r: sympy Matrix\n         Forward kinematics mapping [x, y, z, alpha_z]\n    \"\"\"",
+        "peekOfCode": "def get_f_r(T):\n    \"\"\"\n    Get the forward kinematics mapping from joint space to Cartesian space.\n    Parameters:\n    T: sympy Matrix\n       Homogeneous transformation matrix (symbolic)\n    Returns:\n    f_r: sympy Matrix\n         Forward kinematics mapping [x, y, z, alpha_z]\n    Example:",
         "detail": "robotics_lib.kinematics",
         "documentation": {}
     },
@@ -1925,6 +2698,15 @@
         "importPath": "robotics_lib.kinematics",
         "description": "robotics_lib.kinematics",
         "peekOfCode": "def geometric_jacobian(f_r, sequence, q_in, dh_params):\n    \"\"\"\n    Calculate the geometric Jacobian for a robot manipulator.\n    Parameters:\n    f_r: sympy Matrix\n        Forward kinematics mapping [x, y, z, alpha_z]\n    sequence: str\n        A string containing the sequence of 'r's and 'p's for revolute and prismatic joints\n    q_in: sympy Matrix\n        Column vector of joint variables",
+        "detail": "robotics_lib.kinematics",
+        "documentation": {}
+    },
+    {
+        "label": "skew_symmetric",
+        "kind": 2,
+        "importPath": "robotics_lib.kinematics",
+        "description": "robotics_lib.kinematics",
+        "peekOfCode": "def skew_symmetric(w):\n    \"\"\"\n    Create a skew-symmetric matrix from a 3D vector for cross product representation.\n    Parameters:\n    -----------\n    w: Matrix or array-like\n        3D vector to convert to skew-symmetric form\n    Returns:\n    --------\n    S: Matrix",
         "detail": "robotics_lib.kinematics",
         "documentation": {}
     }

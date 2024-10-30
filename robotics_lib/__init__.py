@@ -28,7 +28,7 @@ __all__ = [
     'angle_axis_from_rot_mat',
     'affine_T',
     'affine_get_translation',
-    'affine_get_R'
+    'affine_get_R',
     'get_minors'
 ]
 

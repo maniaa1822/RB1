@@ -58,6 +58,17 @@ def euler_rotation(sequence: str, angles: List[sp.Symbol]) -> sp.Matrix:
     --------
     R: sp.Matrix
         The resulting rotation matrix
+    
+    Examples:
+    ---------
+    >>> from sympy import symbols
+    >>> alpha, beta, gamma = symbols('alpha beta gamma')
+    >>> euler_rotation('xyz', [alpha, beta, gamma])
+    Matrix([
+    [cos(beta)*cos(gamma), -cos(beta)*sin(gamma), sin(beta)],
+    [cos(alpha)*sin(gamma) + sin(alpha)*sin(beta)*cos(gamma), cos(alpha)*cos(gamma) - sin(alpha)*sin(beta)*sin(gamma), -sin(alpha)*cos(beta)],
+    [sin(alpha)*sin(gamma) - cos(alpha)*sin(beta)*cos(gamma), sin(alpha)*cos(gamma) + cos(alpha)*sin(beta)*sin(gamma), cos(alpha)*cos(beta)]
+    ])
     """
     if len(sequence) != 3 or len(angles) != 3:
         raise ValueError("Sequence and angles must both be of length 3")
@@ -90,6 +101,17 @@ def rpy_rotation(sequence: str, angles: List[sp.Symbol]) -> sp.Matrix:
     --------
     R: sp.Matrix
         The resulting rotation matrix
+    
+    Examples:
+    ---------
+    >>> from sympy import symbols
+    >>> roll, pitch, yaw = symbols('roll pitch yaw')
+    >>> rpy_rotation('xyz', [roll, pitch, yaw])
+    Matrix([
+    [cos(pitch)*cos(yaw), -cos(pitch)*sin(yaw), sin(pitch)],
+    [cos(roll)*sin(yaw) + sin(roll)*sin(pitch)*cos(yaw), cos(roll)*cos(yaw) - sin(roll)*sin(pitch)*sin(yaw), -sin(roll)*cos(pitch)],
+    [sin(roll)*sin(yaw) - cos(roll)*sin(pitch)*cos(yaw), sin(roll)*cos(yaw) + cos(roll)*sin(pitch)*sin(yaw), cos(roll)*cos(pitch)]
+    ])
     """
     # RPY is equivalent to reversed Euler sequence with reversed angles
     return euler_rotation(sequence[::-1], angles[::-1])
@@ -109,6 +131,18 @@ def angle_axis_rotation_direct(r: sp.Matrix, theta: sp.Symbol) -> sp.Matrix:
     --------
     R: sp.Matrix
         The resulting rotation matrix
+    
+    Examples:
+    ---------
+    >>> from sympy import symbols, Matrix
+    >>> theta = symbols('theta')
+    >>> r = Matrix([1, 0, 0])
+    >>> angle_axis_rotation_direct(r, theta)
+    Matrix([
+    [1, 0, 0],
+    [0, cos(theta), -sin(theta)],
+    [0, sin(theta), cos(theta)]
+    ])
     """
     I = eye(3)
     S = Matrix([
@@ -205,6 +239,14 @@ def euler_rotation_inverse(sequence: str, rotation_matrix: sp.Matrix, positive_s
     --------
     alpha, beta, gamma: tuple of sp.Expr
         The three Euler angles
+    
+    Examples:
+    ---------
+    >>> from sympy import symbols, Matrix
+    >>> alpha, beta, gamma = symbols('alpha beta gamma')
+    >>> R = euler_rotation('xyz', [alpha, beta, gamma])
+    >>> euler_rotation_inverse('xyz', R)
+    (alpha, beta, gamma)
     """
     sequence = sequence.lower()
     R = rotation_matrix
@@ -251,6 +293,18 @@ def angle_axis_to_rot_mat(axis: sp.Matrix, angle: sp.Symbol) -> sp.Matrix:
     --------
     R: sp.Matrix
         3x3 rotation matrix
+    
+    Examples:
+    ---------
+    >>> from sympy import symbols, Matrix
+    >>> theta = symbols('theta')
+    >>> axis = Matrix([1, 0, 0])
+    >>> angle_axis_to_rot_mat(axis, theta)
+    Matrix([
+    [1, 0, 0],
+    [0, cos(theta), -sin(theta)],
+    [0, sin(theta), cos(theta)]
+    ])
     """
     # Ensure axis is normalized
     axis = axis / sqrt(axis[0]**2 + axis[1]**2 + axis[2]**2)
@@ -281,6 +335,20 @@ def angle_axis_from_rot_mat(R: sp.Matrix) -> Tuple[sp.Matrix, sp.Expr]:
         3x1 unit vector representing rotation axis
     angle: sp.Expr
         Rotation angle
+    
+    Examples:
+    ---------
+    >>> from sympy import symbols, Matrix
+    >>> theta = symbols('theta')
+    >>> R = angle_axis_to_rot_mat(Matrix([1, 0, 0]), theta)
+    >>> axis, angle = angle_axis_from_rot_mat(R)
+    >>> axis
+    Matrix([
+    [1],
+    [0],
+    [0]])
+    >>> angle
+    theta
     """
     # The angle can be found from the trace
     angle = acos((R.trace() - 1)/2)
